@@ -1,5 +1,5 @@
 html, body {
-	font-family: 'Roboto';
+	/*font-family: 'Roboto';*/
 }
 body { background: url('/img/bg_yellow.png'); font-family: 'Roboto', sans-serif; }
 
@@ -15,7 +15,7 @@ h1 span {
 }
 * {
 	/*box-sizing: border-box;*/
-	transition: all .3s ease-in-out;
+	transition: all .4s ease-in-out;
 }
 
 .site-header {
@@ -63,6 +63,7 @@ nav ul {
 
 ul#flip_nav {
     padding: 12px 0 0 12px;
+    line-height: 20px;
     background-color:none;
     border:none;
     cursor: pointer;
@@ -97,5 +98,5 @@ ul#flip_nav li a  {
 ul#flip_nav li a.flipped_item {
     background-color:#000000;
     color: #ffffff;
-    
+
 } 

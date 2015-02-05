@@ -1,5 +1,5 @@
 html, body {
-	font-family: 'Roboto';
+	/*font-family: 'Roboto';*/
 }
 body { background: url('/img/bg_yellow.png'); font-family: 'Roboto', sans-serif; }
 
@@ -15,7 +15,7 @@ h1 span {
 }
 * {
 	/*box-sizing: border-box;*/
-	transition: all .3s ease-in-out;
+	transition: all .4s ease-in-out;
 }
 
 .site-header {

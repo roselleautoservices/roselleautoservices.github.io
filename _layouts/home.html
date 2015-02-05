@@ -7,13 +7,13 @@
 				{% include header.html %}
 			<!-- </div> -->
 		</div>
-		{% if page.type == "index" %}
+
 			<div class="row">
 				<!-- <div class="container"> -->
 					{% include slider.html %}
 				<!-- </div> -->
 			</div>
-		{% else %}
+
 		<div class="row">
 			<div class="container">
 				{{ content }}
@@ -28,6 +28,6 @@
 
 
 		{% include javascript.html %}
-		{% endif %}
+		
 	</body>
 </html>
