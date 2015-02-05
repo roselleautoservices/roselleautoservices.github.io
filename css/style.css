@@ -14,11 +14,12 @@ section {
 h1 span {
 	display: none;
 }
-* {
+.site-header {
 	/*box-sizing: border-box;*/
-	transition: all .4s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
+/* This is header with slide effect */
 .site-header {
 	padding: 2em;
 	left: 0;
