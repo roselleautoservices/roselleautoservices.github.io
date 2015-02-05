@@ -7,7 +7,8 @@ body { background: url('/img/bg_yellow.png'); font-family: 'Roboto', sans-serif;
 	padding: 2.0rem;
 }
 section {
-	margin: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 h1 span {
