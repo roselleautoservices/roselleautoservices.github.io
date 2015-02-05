@@ -1,0 +1,101 @@
+html, body {
+	font-family: 'Roboto';
+}
+body { background: url('/img/bg_yellow.png'); font-family: 'Roboto', sans-serif; }
+
+.row {
+	padding: 2.0rem;
+}
+section {
+	margin: 2rem;
+}
+
+h1 span {
+	display: none;
+}
+* {
+	/*box-sizing: border-box;*/
+	transition: all .3s ease-in-out;
+}
+
+.site-header {
+	padding: 2em;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: 10;
+}
+
+	.site-header.sticky-nav {
+		position: fixed;
+		width: 100%;
+		background-color: #ccc;
+	}
+
+	.site-header.stuck {
+		position: fixed;
+		width: 100%;
+		height: 8.0rem;
+		background-color: #ccc;
+		left: 0;
+		top: 0;
+		padding: 1em;
+	}
+
+	.site-header.stuck img {
+		width: 120px;
+		height: auto;
+	}
+
+.logo {
+	float: left;
+}
+
+nav ul {
+	float: right;
+}
+
+	nav ul li {
+		display: inline;
+	}
+
+/* This is a flip menu */
+
+ul#flip_nav {
+    padding: 12px 0 0 12px;
+    background-color:none;
+    border:none;
+    cursor: pointer;
+}
+
+ul#flip_nav li {
+    list-style:none;
+    float:left;
+    text-align:center;
+    margin:0px 3px 0px 0px;
+    
+    /*bare bones required css (feel free to change the height though)*/
+    height:30px;
+    overflow:hidden;
+}
+
+ul#flip_nav li a  {
+    /*font-family:LeagueGothicRegular;*/
+    font-size:1.8rem;
+    color:black;
+    text-transform:uppercase;
+    text-decoration:none;
+    /*background-color:white;*/
+    margin:0px;
+    padding:0px 5px 0px 5px;
+    
+    /*bare bones required css*/
+    display:block;
+}
+
+/*this defines the styling of the new flipped menu item*/
+ul#flip_nav li a.flipped_item {
+    background-color:#000000;
+    color: #ffffff;
+    
+} 

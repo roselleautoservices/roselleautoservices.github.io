@@ -1,0 +1,44 @@
+
+<script type="text/javascript" src="js/jquery.menuFlip.js"></script>
+<script>
+
+	$('#flip_nav').menuFlip({
+    li_height       : '30px', 
+    flip_speed      : 100, 
+    flipped_class   : 'flipped_item', 
+    mouseover       : function() {}, 
+    mouseout        : function() {}
+});
+</script>
+
+<!-- Slider panel	 -->
+<script src="js/classie.js"></script>
+<script src="js/tiltSlider.js"></script>
+<script>
+	new TiltSlider( document.getElementById( 'slideshow' ) );
+</script>
+
+
+<!-- Sticky Menu -->
+<script src="js/waypoints.min.js"></script>
+<script src="js/waypoints-sticky.min.js"></script>
+<script>
+	function makeSticky() {
+		var myWindow = $( window ),
+			myHeader = $( ".site-header" );
+
+		myWindow.scroll( function() {
+			if ( myWindow.scrollTop() == 0 ) {
+				myHeader.removeClass( "sticky-nav" );
+			} else {
+				myHeader.addClass( "sticky-nav" );
+			}
+		} );
+	}
+
+	$( function() {
+		// makeSticky();
+		 
+		$( ".site-header" ).waypoint( 'sticky' );
+	} );
+</script>

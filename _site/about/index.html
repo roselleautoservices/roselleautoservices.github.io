@@ -1,1 +1,134 @@
-<h2 id="this-will-be-about-the-roselle-auto-services-page">This will be about the Roselle Auto Services page.</h2>
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>About Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="generator" content="Jekyll v2.4.0"
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic,900">
+		<link rel="stylesheet" href="/css/normalize.css">
+		<link rel="stylesheet" href="/css/skeleton.css">
+		
+		<link rel="stylesheet" type="text/css" href="/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="/css/component.css" />
+
+		<link rel="stylesheet" href="/css/style.css">
+
+
+
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+		<!--[if lt IE 9]>
+		<script src="/js/html5shiv.min.js"></script>
+		<script src="/js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+
+	</head>
+
+	<body class="wrap">
+
+		<div class="row">
+			<!-- <div class="container"> -->
+				<header class="site-header">
+	<div><h1 class="logo"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span></h1></div>
+	<nav class="sticky-nav">
+		<ul id="flip_nav">
+	<li><a href="/">home</a></li>
+	<li><a href="/about">about us</a></li>
+	<li><a href="/services">services</a></li>
+	<li><a href="/gallery">gallery</a></li>
+	<li><a href="/faq">faq</a></li>
+	<li><a href="/contactus">contact us</a></li>
+</ul>
+
+	</nav>
+</header>
+			<!-- </div> -->
+		</div>
+		
+		<div class="row">
+			<div class="container">
+				<section>
+	## Our _company_ was established in 2007. Since we have satisfied our customer with our outstanding deals and quality of work.
+
+
+	We specializes in repairing late model vehicles. Our collision shop will put your vehicle back to pre-accident condition, structurally and cosmetically. Using factory specification we straighten the frame or uni-body to it’s pre-accident condition, parts are replaced with OEM, (Original Equipment Manufacture), reconditioned, or with Aftermarket Parts, (Lifetime Guarantee), depending on the customers request and budget. We then refinish the repaired or replaced parts with a factory package paint. This is the same paint that is used at the factory when the vehicle was originally built. This way we can assure the same color quality and texture as the factory finish.
+</section>
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="container">
+				<footer role="contentinfo">
+	<div class="row">
+		<div class="one-third column">
+			First section (Map)
+		</div>
+		<div class="one-third column">
+			Second section (Info)
+		</div>
+		<div class="one-third column">
+			Third section (tags)
+			2015
+		</div>
+	</div>
+	<div class="row">
+		<p>Created by Igor M (designexposition.com)</p>
+	</div>
+</footer>
+			</div>
+		</div>
+
+
+		
+<script type="text/javascript" src="js/jquery.menuFlip.js"></script>
+<script>
+
+	$('#flip_nav').menuFlip({
+    li_height       : '30px', 
+    flip_speed      : 100, 
+    flipped_class   : 'flipped_item', 
+    mouseover       : function() {}, 
+    mouseout        : function() {}
+});
+</script>
+
+<!-- Slider panel	 -->
+<script src="js/classie.js"></script>
+<script src="js/tiltSlider.js"></script>
+<script>
+	new TiltSlider( document.getElementById( 'slideshow' ) );
+</script>
+
+
+<!-- Sticky Menu -->
+<script src="js/waypoints.min.js"></script>
+<script src="js/waypoints-sticky.min.js"></script>
+<script>
+	function makeSticky() {
+		var myWindow = $( window ),
+			myHeader = $( ".site-header" );
+
+		myWindow.scroll( function() {
+			if ( myWindow.scrollTop() == 0 ) {
+				myHeader.removeClass( "sticky-nav" );
+			} else {
+				myHeader.addClass( "sticky-nav" );
+			}
+		} );
+	}
+
+	$( function() {
+		// makeSticky();
+		 
+		$( ".site-header" ).waypoint( 'sticky' );
+	} );
+</script>
+		
+	</body>
+</html>
