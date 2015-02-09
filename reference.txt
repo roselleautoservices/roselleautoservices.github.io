@@ -13,3 +13,6 @@ http://christianspecht.de/2014/08/22/jekyll-lightbox2-image-gallery-another-appr
 
 Maps
 https://hpneo.github.io/gmaps/
+
+Jekyll hacks
+http://brizzled.clapper.org/blog/2010/12/20/some-jekyll-hacks/

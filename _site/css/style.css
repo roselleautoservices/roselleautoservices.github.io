@@ -29,6 +29,12 @@ section {
 	opacity: .8;
 }
 
+a {
+	color: #3895FF;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 footer { font-size: 12px; text-align: center; }
 
 h1 span {
