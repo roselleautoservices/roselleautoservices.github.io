@@ -1,3 +1,15 @@
 
 Menu
 http://www.jqueryrain.com/?eY9PnqxR
+
+Flipped Top Menu
+http://grimmdude.com/2011/08/11/jquery-menu-flip
+
+Sitemap
+http://joelglovier.com/writing/sitemaps-for-jekyll-sites/
+
+Gallery 
+http://christianspecht.de/2014/08/22/jekyll-lightbox2-image-gallery-another-approach/
+
+Maps
+https://hpneo.github.io/gmaps/

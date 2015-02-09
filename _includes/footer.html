@@ -1,17 +1,42 @@
-<footer role="contentinfo">
+
 	<div class="row">
 		<div class="one-third column">
-			First section (Map)
+			
+			<div id="map"></div>
+
+
 		</div>
 		<div class="one-third column">
-			Second section (Info)
+			    
+{% capture m %}
+
+#### Roselle Auto Services Inc.
+##### **4 Roselle Street, Linden, NJ 07036**
+
+#### Our Contact Numbers
+: New Jersey: 908-718-5446
+: Brooklyn:    917-776-3507
+: Fax:         908-275-3781
+: Email: <a href="/contactus">Contact Us Now</a>
+
+{% endcapture %}
+{{ m | markdownify }}
+                
 		</div>
-		<div class="one-third column">
-			Third section (tags)
-			{{ site.time | date: '%Y' }}
+		<div class="one-third column tags">
+
+		  {% for p in site.pages %}
+
+		  {% if p.layout != nil %}
+
+		      <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.slogan }}</a>
+
+		  {% endif %}
+
+		  {% endfor %}
+
 		</div>
 	</div>
-	<div class="row">
-		<p>Copyrighted by Roselle Auto Services Inc &#169 {{ site.time | date: '%Y' }} | Created by Igor M (designexposition.com)</p>
-	</div>
+<footer>
+		<span>Copyrighted by Roselle Auto Services Inc &#169 {{ site.time | date: '%Y' }} | Created by Igor M (designexposition.com)</span>
 </footer>

@@ -1,6 +1,6 @@
 .slideshow {
 	position: relative;
-	margin-bottom: 100px;
+	margin-bottom: 0;
 }
 
 .slides {
@@ -42,8 +42,8 @@
 	display: inline-block;
 	width: 60px;
 	height: 25px;
-	border-top: 10px solid #fff;
-	border-bottom: 10px solid #fff;
+	border-top: 10px solid none;
+	border-bottom: 10px solid #000;
 	background-color: #ddd;
 	cursor: pointer;
 	margin: 0 3px;

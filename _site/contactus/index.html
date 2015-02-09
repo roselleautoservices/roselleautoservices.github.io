@@ -2,11 +2,14 @@
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
-		<title>Roselle Auto Services Inc | Contact Us</title>
+		<title>Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="generator" content="Jekyll v2.4.0"
+		<meta name="generator" content="Jekyll v2.4.0" />
+		<meta name="description" content="Free towing, we pay for your deductible. Contact us today - Call, or email. (Web discounts may apply, call now) - Collision repairs, dent removal, body paint. Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446">
+		<meta name="keywords" content="auto body, auto collission, auto paint, Contact Roselle Auto Service, dent, dent removal, dent repair, Email us, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, Phone, removal, Repair, shop">
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic,900">
+		<link rel="stylesheet" type="text/css" href="/css/animate.css" />
 		<link rel="stylesheet" href="/css/normalize.css">
 		<link rel="stylesheet" href="/css/skeleton.css">
 		
@@ -25,7 +28,7 @@
 
 		<!-- jQuery -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
+		<script src="/js/modernizr.custom.js"></script>
 
 	</head>
 
@@ -52,44 +55,190 @@
 
 		<div class="row">
 			<div class="container">
-				<p>Will add Contact Page here</p>
+				<p><section>
+Will add Contact Page here</p>
+
+<p></section></p>
 
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="container">
-				<footer role="contentinfo">
+			<div class="column">
+				
 	<div class="row">
 		<div class="one-third column">
-			First section (Map)
+			
+			<div id="map"></div>
+
+
 		</div>
 		<div class="one-third column">
-			Second section (Info)
+			    
+
+<h4>Roselle Auto Services Inc.</h4>
+
+<h5><strong>4 Roselle Street, Linden, NJ 07036</strong></h5>
+
+<h4>Our Contact Numbers</h4>
+
+<p>: New Jersey: 908-718-5446
+: Brooklyn:    917-776-3507
+: Fax:         908-275-3781
+: Email: <a href="/contactus">Contact Us Now</a></p>
+
+                
 		</div>
-		<div class="one-third column">
-			Third section (tags)
-			2015
+		<div class="one-third column tags">
+
+		  
+
+		  
+
+		      <a  href="/about/index.html">About us</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/auto-body-linden/index.html">Auto Body Linden</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/auto-body-repair-linden/index.html">Auto body repair linden</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/auto-body-shop-linden/index.html">Auto Body Shop Linden</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/autobody-linden/index.html">Autobody Linden</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/services/index.html">Services We Offer</a>
+
+		  
+
+		  
+
+		  
+
+		      <a class="active" href="/contactus/index.html">contact us</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/gallery/index.html">Roselle Auto Services Gallery</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/index.html">Auto Body Repair Shop in Linden, New Jersey (NJ)</a>
+
+		  
+
+		  
+
+		  
+
+		      <a  href="/faq/index.html">faq</a>
+
+		  
+
+		  
+
+		  
+
+		  
+
+		  
+
+		  
+
 		</div>
 	</div>
-	<div class="row">
-		<p>Copyrighted by Roselle Auto Services Inc &#169 2015 | Created by Igor M (designexposition.com)</p>
-	</div>
+<footer>
+		<span>Copyrighted by Roselle Auto Services Inc &#169 2015 | Created by Igor M (designexposition.com)</span>
 </footer>
+
 			</div>
 		</div>
 
+		<!-- Google maps -->
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="/js/gmaps.js"></script>
 
-		
+<script type="text/javascript">
+
+    var map;
+    $(document).ready(function(){
+      map = new GMaps({
+        div: '#map',
+        zoom: 17,
+        lat: -12.043333,
+        lng: -77.028333,
+        title: 'Roselle Auto Services Inc',
+      });
+      map.drawOverlay({
+		lat: map.getCenter().lat(),
+        lng: map.getCenter().lng(),
+        content: '<div class="mapTitle">Roselle Auto Services Inc</div>',
+        verticalAlign: 'top',
+        horizontalAlign: 'center'
+      });
+    });
+
+	GMaps.geocode({
+          address: '4 ROSELLE STREET, LINDEN, NJ 07036',
+          callback: function(results, status){
+            if(status=='OK'){
+              var latlng = results[0].geometry.location;
+              map.setCenter(latlng.lat(), latlng.lng());
+              map.addMarker({
+                lat: latlng.lat(),
+                lng: latlng.lng()
+				});
+			}
+		}
+	});
+      
+</script>
+
 <script type="text/javascript" src="/js/jquery.menuFlip.js"></script>
 <script>
 
 	$('#flip_nav').menuFlip({
-    li_height       : '30px', 
-    flip_speed      : 100, 
-    flipped_class   : 'flipped_item', 
-    mouseover       : function() {}, 
-    mouseout        : function() {}
+	li_height       : '40px', 
+	flip_speed      : 100, 
+	flipped_class   : 'flipped_item', 
+	mouseover       : function() {}, 
+	mouseout        : function() {}
 });
 </script>
 
@@ -123,6 +272,31 @@
 		 
 		$( ".site-header" ).waypoint( 'sticky' );
 	} );
+</script>
+
+<script>
+	positionFooter () ;
+
+	    function positionFooter () {
+	        var docHeight = $(window).height();
+	        var footerHeight = 1;/*$('#footer').height()*/
+	        var footerTop = $('footer').position().top + footerHeight;
+	        if (footerTop < docHeight) {
+	        $('footer').css('margin-top', (docHeight - footerTop) + 'px');
+	        }
+	    }
+
+	$(window).scroll(positionFooter).resize(positionFooter);
+</script>
+
+<!-- Lazy Load -->
+<script type="text/javascript" src="/js/jquery.lazyload.min.js"></script>
+<script>
+	
+</script>
+<script>
+	// Animate embed
+	// $('h2, h3, h4, h5').addClass('animated zoomIn');
 </script>
 		
 	</body>
