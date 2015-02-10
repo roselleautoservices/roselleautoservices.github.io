@@ -8,23 +8,17 @@
 			<!-- </div> -->
 		</div>
 
-			<div class="row">
-				<div class="column">
-					{% include slider.html %}
-				</div>
-			</div>
+		<div class="section">
+			{% include slider.html %}
+		</div>
 
-		<div class="row">
-			<div class="container">
+		<div class="container">
+			<div class="row">
 				{{ content }}
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="column">
-				{% include footer.html %}
-			</div>
-		</div>
+		{% include footer.html %}
 
 		{% include javascript.html %}
 		

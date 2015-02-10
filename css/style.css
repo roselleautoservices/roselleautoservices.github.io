@@ -1,17 +1,26 @@
 html, body {
 	/*font-family: 'Roboto';*/
 }
-body { background: #C7CED6; font-family: 'Roboto', sans-serif; }
+body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem; }
 
 .row {
 	padding: 2.0rem;
 }
-section {
+
+section{
 	padding-top: 2rem;
-	padding-bottom: 2rem;
 }
+.column{ padding-top: 2rem; padding-bottom: 2rem; }
+.footer{
+	font-size: 100%; 
+	text-align: center; 
+	background: #534D4D url('/img/bg_yellow.png') repeat;
+  	/*background-size: cover;*/
+}
+.info p{ line-height: 80%; }
 
 .tags a {
+	font-size: 80%;
 	color: white;
 	text-decoration: none;
 	background: #3895FF;
@@ -28,6 +37,7 @@ section {
 .tags a:hover {
 	opacity: .8;
 }
+footer { font-size: 65% }
 
 a {
 	color: #3895FF;
@@ -35,11 +45,11 @@ a {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-footer { font-size: 12px; text-align: center; }
 
 h1 span {
 	display: none;
 }
+.center { text-align: center; }
 
 /* Maps design */
 	#map {
