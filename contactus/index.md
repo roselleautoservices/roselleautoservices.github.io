@@ -26,7 +26,7 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 ##### 4 Roselle Street, Linden, NJ 07036
 </div>
 <div class="one-half column">
-{% icon fa-phone %}
+
 ####Phone
 {% for global in site.data.global %} 
 ###[{{ global.number }}](tel:{{ global.number }})
