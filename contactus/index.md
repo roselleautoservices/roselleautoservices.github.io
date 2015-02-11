@@ -12,12 +12,12 @@ slogan: contact us
 ---
 <section>
 <div class="row">
-
+<div class="u-full-width">
 #Contact Us
 In order for us to help you fix your vehicle with speedy and convenient to you services, you need to contact us immediately. Don’t forget to ask for promotional discounts that may apply. The faster you call the faster we can help.
 
 Our shop specialized in collision repairs, paintless dent removal, frame straightening, autobody paint. Our shop conveniently located in Linden New Jersey.
-
+</div>
 </div>
 <div class="row center">
 <div class="one-half column">

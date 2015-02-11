@@ -55,9 +55,23 @@
 
 		<div class="container">
 			<div class="row">
-				<p><section>
-Will add gallery here
-</section></p>
+				<div class="section">
+    <div class="am-container" id="am-container">
+        <a href="#"><img src="/assets/images/Audi_BeforeAndAfter.jpg" title="Audi damaged"></img></a>
+        <a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v2.jpg" title="Lexus damaged"></img></a>
+        <a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v3.jpg" title="Lexus2 damaged"></img></a>
+        <a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v4.jpg"></img></a>
+        <a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v5.jpg"></img></a>
+        <a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v6.jpg"></img></a>
+        <a href="#"><img src="/assets/images/BWM_BeforeAndAfter.jpg"></img></a>
+        <a href="#"><img src="/assets/images/frame1.jpg"></img></a>
+        <a href="#"><img src="/assets/images/frame5-466x350.jpg"></img></a>
+        <a href="#"><img src="/assets/images/painting2-466x350.jpg"></img></a>
+        <a href="#"><img src="/assets/images/painting4-300x200.jpg"></img></a>
+        <a href="#"><img src="/assets/images/shop.jpg"></img></a>
+        <a href="#"><img src="/assets/images/towing1.jpg"></img></a>
+    </div>
+</div>
 
 			</div>
 		</div>
@@ -144,7 +158,7 @@ Will add gallery here
 
 		  
 
-		      <a  href="/contactus/index.html">contact us</a>
+		      <a  href="/faq/index.html">faq</a>
 
 		  
 
@@ -168,11 +182,7 @@ Will add gallery here
 
 		  
 
-		      <a  href="/faq/index.html">faq</a>
-
-		  
-
-		  
+		      <a  href="/contactus/index.html">contact us</a>
 
 		  
 
@@ -192,7 +202,43 @@ Will add gallery here
 </div>
 
 
-		<!-- Google maps -->
+		<script type="text/javascript" src="/js/jquery.montage.min.js"></script>
+<script>
+	$(function() {
+		var $container 	= $('#am-container'),
+			$imgs		= $container.find('img').hide(),
+			totalImgs	= $imgs.length,
+			cnt			= 0;
+		
+		$imgs.each(function(i) {
+			var $img	= $(this);
+			$('<img/>').load(function() {
+				++cnt;
+				if( cnt === totalImgs ) {
+					$imgs.show();
+					$container.montage({
+						fillLastRow	: false,
+							alternateHeight	: true,
+							alternateHeightRange : {
+								min	: 90,
+								max	: 200
+							},
+							margin : 2
+					});
+					
+					/* 
+					 * just for this demo:
+					 */
+					$('#overlay').fadeIn(500);
+				}
+			}).attr('src',$img.attr('src'));
+		});	
+	});
+
+
+</script>
+
+<!-- Google maps -->
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript" src="/js/gmaps.js"></script>
 

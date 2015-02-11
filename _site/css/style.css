@@ -7,6 +7,18 @@ body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem
 	padding: 2.0rem;
 }
 
+/* Gallery Designs */
+	.am-wrapper{
+		float:left;
+		position:relative;
+		overflow:hidden;
+	}
+	.am-wrapper img{
+		position:absolute;
+		outline:none;
+	}
+
+
 section{
 	padding-top: 2rem;
 }

@@ -221,7 +221,7 @@
 
 		  
 
-		      <a  href="/contactus/index.html">contact us</a>
+		      <a class="active" href="/faq/index.html">faq</a>
 
 		  
 
@@ -245,11 +245,7 @@
 
 		  
 
-		      <a class="active" href="/faq/index.html">faq</a>
-
-		  
-
-		  
+		      <a  href="/contactus/index.html">contact us</a>
 
 		  
 
@@ -269,7 +265,43 @@
 </div>
 
 
-		<!-- Google maps -->
+		<script type="text/javascript" src="/js/jquery.montage.min.js"></script>
+<script>
+	$(function() {
+		var $container 	= $('#am-container'),
+			$imgs		= $container.find('img').hide(),
+			totalImgs	= $imgs.length,
+			cnt			= 0;
+		
+		$imgs.each(function(i) {
+			var $img	= $(this);
+			$('<img/>').load(function() {
+				++cnt;
+				if( cnt === totalImgs ) {
+					$imgs.show();
+					$container.montage({
+						fillLastRow	: false,
+							alternateHeight	: true,
+							alternateHeightRange : {
+								min	: 90,
+								max	: 200
+							},
+							margin : 2
+					});
+					
+					/* 
+					 * just for this demo:
+					 */
+					$('#overlay').fadeIn(500);
+				}
+			}).attr('src',$img.attr('src'));
+		});	
+	});
+
+
+</script>
+
+<!-- Google maps -->
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript" src="/js/gmaps.js"></script>
 
