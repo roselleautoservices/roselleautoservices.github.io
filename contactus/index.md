@@ -22,31 +22,36 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 <div class="row center">
 <div class="one-half column">
 
-##Address
-### 4 Roselle Street, Linden, NJ 07036
+####Address
+##### 4 Roselle Street, Linden, NJ 07036
 </div>
 <div class="one-half column">
 {% icon fa-phone %}
-##Phone
+####Phone
 {% for global in site.data.global %} 
 ###[{{ global.number }}](tel:{{ global.number }})
 {% endfor %}
 
 </div>
-</div>
 
 
+#### Email Us Today
+<form method="POST" action="//formspree.io/xdesigns@gmail.com">
 
+	<!-- Subject for this email -->
+	<input type="hidden" name="_subject" value="Roselle Auto Email Question" />
 
-### Email Us Today
-<form action="//formspree.io/xdesigns@gmail.com">
-<div class="row">
-    <input type="text" name="name">
-    <label for="emailInput">Your email</label>
-    <input type="email" name="_replyto" if="emailnput">
+	<label for="name">Enter your name</label>
+    	<input type="text" name="name" placeholder="Your name" if="name">
+    <label for="email">Your email</label>
+    	<input type="email" name="_replyto" placeholder="test@mailbox.com" if="email">
+    <label for="description">Brief Description</label>
+    	<textarea name="message" class="u-full-width" placeholder="Quickly describe your question" id="textbox"></textarea>
+
+    <input type="text" name="_gotcha" style="display:none" />
     <input class="button-primary" type="submit" value="Send">
-</div>
-</form>
 
+</form>
+</div>
 
 </section>
