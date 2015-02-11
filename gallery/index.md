@@ -5,7 +5,7 @@ description: You will find different images of pre to post accidental repairs th
 tags: Photo gallery, Roselle shop photos
 slogan: Roselle Auto Services Gallery
 ---
-<div class="section">
+<div class="section gallery">
 	<div class="am-container" id="am-container">
 		<a href="#"><img src="/assets/images/Audi_BeforeAndAfter.jpg" title="Audi damaged"></img></a>
 		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v1.jpg" title="Lincoln damaged"></img></a>
