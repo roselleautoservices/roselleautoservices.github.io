@@ -1,14 +1,10 @@
 ---
 layout: page
 title: Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
-
-latitude: 41.850033
-longitude: 87.6500523
 published: true
-
 description: Free towing, we pay for your deductible. Contact us today - Call, or email. (Web discounts may apply, call now) - Collision repairs, dent removal, body paint. Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
 tags: auto body, auto collission, auto paint, Contact Roselle Auto Service, dent, dent removal, dent repair, Email us, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, Phone, removal, Repair, shop
-slogan: contact us
+slogan: Contact us
 ---
 <section>
 <div class="row">
@@ -23,13 +19,13 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 <div class="one-half column">
 
 ####Address
-##### 4 Roselle Street, Linden, NJ 07036
+##### [4 Roselle Street, Linden, NJ 07036.](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e)
 </div>
 <div class="one-half column">
 
-####Phone
+#### Phone
 {% for global in site.data.global %} 
-###[{{ global.number }}](tel:{{ global.number }})
+#####[{{ global.number }}](tel:{{ global.number }})
 {% endfor %}
 
 </div>
