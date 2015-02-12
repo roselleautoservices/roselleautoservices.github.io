@@ -1,6 +1,73 @@
+<style>
+	/* Larger than mobile */
+@media (max-width: 600px) {
+
+	.site-header{
+		display: none;
+	}
+
+	.bottom-header {
+		z-index: 10;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 50px;
+		background: white;
+	}
+	.logo-small img {
+		width: 120px;
+		height: 46px;
+		padding-left: 10px;
+	}
+	.buttom_menu h2 {
+		position: absolute;
+		bottom: -5px;
+		left: 120px;
+		font-size: 17px;
+	}
+	.menu { position: absolute; bottom: 10px; right: 10px; float: right; }
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+
+/* Larger than tablet */
+@media (min-width: 601px) {
+	.buttom-header{ display: none }
+	.logo-small img { display: none }
+	.menu { display: none; }
+	#my-menu { display: none; }
+}
+
+
+</style>
+
 <header class="site-header">
 	<div><h1 class="logo"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span></h1></div>
 	<nav class="sticky-nav">
 		{% include menu.html %}
 	</nav>
+	<div class="buttom_menu">
+
+	</div>
+</header>
+<header class="bottom-header">
+	<div class="buttom_menu">
+		<h1 class="logo-small"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span></h1>
+		<h2><a href="tel:000-000-0000">Call now: 000-000-0000</a></h2>
+		<nav id="my-menu">
+			<li><a href="#my-page" id="close">Close the menu</a></li>
+			<li><a href="/">home</a></li>
+			<li><a href="/about">about us</a></li>
+			<li><a href="/services">services</a></li>
+			<li><a href="/gallery">gallery</a></li>
+			<li><a href="/faq">faq</a></li>
+			<li><a href="/contactus">contact us</a></li>
+		</nav>
+		<div class="menu">
+			<a href="#my-menu" id="open">Menu</a>
+		</div>
+	</div>
 </header>
