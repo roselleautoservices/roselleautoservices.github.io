@@ -38,9 +38,11 @@
 		<div class="row">
 			<!-- <div class="container"> -->
 				<style>
+
 	/* Larger than mobile */
 @media (max-width: 600px) {
-	.site-header { display: none; }
+	/*.site-header { display: none; }*/
+	.sticky-nav {display: none;}
 	.bottom-header {
 		z-index: 10;
 		position: fixed;
@@ -62,12 +64,45 @@
 		padding-left: 10px;
 	}
 		.logoSmall a{
+			text-transform:uppercase;
 			position: fixed;
 			padding-top: 12px;
 			padding-left: 10px;
 			font-size: 2.2rem;
 			/*font-weight: 400;*/
 		}
+		.logoSmall {
+			font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+			font-size: 2.2rem;
+			text-transform: uppercase;
+			line-height: 110%;
+			font-weight: 600;
+			padding-left: 10px;
+		}
+		.logoSmall h1 { float:left; }
+			.auto {
+/*				padding-bottom: 60px;
+				padding-left: 10px;*/
+				color: blue;
+				font-size: 2rem;
+				text-transform: capitalize;
+				letter-spacing: -1px;
+				font-weight: 400;
+/*				 -ms-transform: rotate(90deg); 
+    			-webkit-transform: rotate(90deg); 
+   				 transform: rotate(90deg);*/
+			}
+			span.stretch {
+				float: left;
+				display: inline-block;
+			    display:inline-block;
+			    transform:scale(1,1.2); /* W3C */
+			    -webkit-transform:scale(1,1.2); /* Safari and Chrome */
+			    -moz-transform:scale(1,1.2); /* Firefox */
+			    -ms-transform:scale(1,1.2); /* IE 9 */
+			    -o-transform:scale(1,1.2); /* Opera */
+			    letter-spacing: 1px;
+			}
 
 	.menu a{ 
 		position: absolute; 
@@ -82,8 +117,34 @@
 		font-size: 3.0rem;
 		text-transform: capitalize;
 	}
+	a#close { 
+		position: fixed;
+		top:-24px;
+		right: 10px;
+	}
+	#mm-0 {
+		margin-top: 30px;
+
+	}
+	li.fa.fa-times{
+		width: 20px;
+	}
 
 }
+
+
+.jwords{visibility:hidden; font-size: 10px;}
+#wrap2 { width: 110px; float:right; }
+.desctitle p{
+    line-height: .8;
+    text-transform: uppercase;
+    top:-.05em;
+    cursor: default;
+}
+.blue { color: #0054c7; }
+.black { color:black; }
+.call:hover, .call:active { color:red; cursor: pointer; }
+
 
 /* Larger than phablet (also point when grid becomes active) */
 
@@ -110,17 +171,27 @@
 	<li><a href="/contactus">contact us</a></li>
 </ul>
 
+<span class="hatchshow_temp">
+	 <div id="wrap">
+        <div class="desctitle">
+            <p>
+                <span class="jwords black">No Deductibles</span>
+                <span class="jwords">Web Exclusive</span>
+                <span class="jwords blue">25% OFF</span>
+                <span class="jwords call">Call Now</span>
+                <span class="jwords black">(908)718-5446</span>
+            </p>               
+        </div>
+      </div>
+ </span>
 	</nav>
-	<div class="buttom_menu">
-
-	</div>
 </header>
 <div class="bottom-header">
-		<h1 class="logoSmall"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span><a href="tel:(908)718-5446">(908)718-5446</a></h1>
+		<h1 class="logoSmall"><!-- <img src="/img/roselle.png"> --><a href="tel:(908)718-5446">(908)718-5446</a></h1>
 		
 		<nav id="my-menu" class="mm-list">
 			<ul>
-				<li><a href="#my-page" id="close">X</a></li>
+				<li><a href="#my-page" id="close"><i class="fa fa-times"></i></a></li>
 				<li><a href="/">home</a></li>
 				<li><a href="/about">about us</a></li>
 				<li><a href="/services">services</a></li>
@@ -370,7 +441,25 @@
 </div>
 
 
-		<!-- Mobile Menu -->
+		  <script type="text/javascript" charset="utf-8">
+    $(window).load(function(){
+      $().hatchShow();
+    });		
+    jQuery.fn.hatchShow = function(){
+      $('.jwords').css('display','inner-block').css('white-space','pre').each(function(){
+        var t = $(this);
+        t.wrap("<span class='hatchshow_temp' style='display:block'>");
+        var pw = t.parent().width();
+        while( t.width() < pw ){t.css('font-size', (t.fontSize()+1)+"px"),
+          function(){while( t.width() > pw ){t.css('font-size', (t.fontSize()-.1)+"px")}};
+        };
+      }).css('visibility','visible');
+    };
+    jQuery.fn.fontSize = function(){return parseInt($(this).css('font-size').replace('px',''));};
+ 
+  </script>
+
+<!-- Mobile Menu -->
 <script src="/js/jquery.mmenu.min.all.js" type="text/javascript"></script>
 <script type="text/javascript">
    $(document).ready(function() {
