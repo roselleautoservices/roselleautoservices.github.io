@@ -7,19 +7,19 @@ slogan: Roselle Auto Services Gallery
 ---
 <div class="section gallery">
 	<div class="am-container" id="am-container">
-		<a href="#"><img src="/assets/images/Audi_BeforeAndAfter.jpg" title="Audi damaged"></img></a>
-		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v1.jpg" title="Lincoln damaged"></img></a>
-		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v2.jpg" title="Lexus damaged"></img></a>
-		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v3.jpg" title="Lexus2 damaged"></img></a>
-		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v4.jpg" title="Toyota Prius damaged"></img></a>
-		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v5.jpg" title="Toyota Camry damaged"></img></a>
-		<a href="#"><img src="/assets/images/BeforeAndAfter-Recovered_v6.jpg" title="Acura damaged"></img></a>
-		<a href="#"><img src="/assets/images/BWM_BeforeAndAfter.jpg" title="BWM damaged"></img></a>
-		<a href="#"><img src="/assets/images/frame1.jpg" title="Automobile Frame Straightner Application"></img></a>
-		<a href="#"><img src="/assets/images/frame5-466x350.jpg" title="Toyota Prius damaged getting fixed"></img></a>
-		<a href="#"><img src="/assets/images/painting2-466x350.jpg" title="Vehicle, Cars Paint Room"></img></a>
-		<a href="#"><img src="/assets/images/painting4-300x200.jpg" title="Painting a car"></img></a>
-		<a href="#"><img src="/assets/images/shop.jpg" title="Roselle Auto Services Inc Show Image"></img></a>
-		<a href="#"><img src="/assets/images/towing1.jpg" title="Roselle Auto Services Towing Truck Image"></img></a>
+		<a href="/assets/images/Audi_BeforeAndAfter.jpg" data-lightbox="image-1" data-title="Audi damaged"><img src="/assets/images/Audi_BeforeAndAfter.jpg" title="Audi damaged" /></a>
+		<a href="/assets/images/BeforeAndAfter-Recovered_v1.jpg" data-lightbox="image-2" data-title="Lincoln damaged"><img src="/assets/images/BeforeAndAfter-Recovered_v1.jpg" title="Lincoln damaged" /></a>
+		<a href="/assets/images/BeforeAndAfter-Recovered_v2.jpg" data-lightbox="image-3" data-title="Lexus damaged"><img src="/assets/images/BeforeAndAfter-Recovered_v2.jpg" title="Lexus damaged"></a>
+		<a href="/assets/images/BeforeAndAfter-Recovered_v3.jpg" data-lightbox="image-4" data-title="Lexus2 damaged"><img src="/assets/images/BeforeAndAfter-Recovered_v3.jpg" title="Lexus2 damaged"></a>
+		<a href="/assets/images/BeforeAndAfter-Recovered_v4.jpg" data-lightbox="image-5" data-title="Toyota Prius damaged"><img src="/assets/images/BeforeAndAfter-Recovered_v4.jpg" title="Toyota Prius damaged" /></a>
+		<a href="/assets/images/BeforeAndAfter-Recovered_v5.jpg" data-lightbox="image-6" data-title="Toyota Camry damaged"><img src="/assets/images/BeforeAndAfter-Recovered_v5.jpg" title="Toyota Camry damaged" /></a>
+		<a href="/assets/images/BeforeAndAfter-Recovered_v6.jpg" data-lightbox="image-7" data-title="Acura damaged"><img src="/assets/images/BeforeAndAfter-Recovered_v6.jpg" title="Acura damaged" /></a>
+		<a href="/assets/images/BWM_BeforeAndAfter.jpg" data-lightbox="image-8" data-title="BWM damaged"><img src="/assets/images/BWM_BeforeAndAfter.jpg" title="BWM damaged" /></a>
+		<a href="/assets/images/frame1.jpg" data-lightbox="image-9" data-title="Automobile Frame Straightner Application"><img src="/assets/images/frame1.jpg" title="Automobile Frame Straightner Application" /></a>
+		<a href="/assets/images/frame5-466x350.jpg" data-lightbox="image-10" data-title="Toyota Prius damaged getting fixed"><img src="/assets/images/frame5-466x350.jpg" title="Toyota Prius damaged getting fixed" /></a>
+		<a href="/assets/images/painting2-466x350.jpg" data-lightbox="image-11" data-title="Vehicle, Cars Paint Room"><img src="/assets/images/painting2-466x350.jpg" title="Vehicle, Cars Paint Room" /></a>
+		<a href="/assets/images/painting4-300x200.jpg" data-lightbox="image-12" data-title="Painting a car"><img src="/assets/images/painting4-300x200.jpg" title="Painting a car" /></a>
+		<a href="/assets/images/shop.jpg" data-lightbox="image-13" data-title="Roselle Auto Services Inc Show Image"><img src="/assets/images/shop.jpg" title="Roselle Auto Services Inc Show Image" /></a>
+		<a href="/assets/images/towing1.jpg" data-lightbox="image-14" data-title="Roselle Auto Services Towing Truck Image"><img src="/assets/images/towing1.jpg" title="Roselle Auto Services Towing Truck Image" /></a>
 	</div>
 </div>

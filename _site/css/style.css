@@ -13,7 +13,7 @@ body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem
 
 /* Gallery Designs */
 	.gallery {
-		min-height: 500px;
+		/*min-height: 500px;*/
 	}
 
 	.am-wrapper{
@@ -130,6 +130,7 @@ h1 span {
 .logo {
 	float: left;
 }
+.logo img { margin-top: -20px; }
 
 nav ul {
 	float: right;
@@ -142,7 +143,7 @@ nav ul {
 /* This is a flip menu */
 
 ul#flip_nav {
-    padding: 12px 0 0 12px;
+    padding: 7px 0 0 12px;
     line-height: 20px;
     background-color:none;
     border:none;

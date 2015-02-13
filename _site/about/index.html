@@ -14,9 +14,10 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/css/skeleton.css">
 		<link href="/css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
+		<link href="/css/lightbox.css" rel="stylesheet" />
 
-		<link rel="stylesheet" type="text/css" href="/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="/css/component.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="/css/demo.css" /> -->
+		<link rel="stylesheet" href="/css/component.css" />
 
 		<link rel="stylesheet" href="/css/style.css">
 
@@ -41,7 +42,6 @@
 
 	/* Larger than mobile */
 @media (max-width: 600px) {
-	/*.site-header { display: none; }*/
 	.sticky-nav {display: none;}
 	.bottom-header {
 		z-index: 10;
@@ -58,11 +58,7 @@
 		font-weight: 400;
 		font-size: 2.2rem;
 	}
-	.logoSmall img {
-		width: 120px;
-		height: 46px;
-		padding-left: 10px;
-	}
+
 		.logoSmall a{
 			text-transform:uppercase;
 			position: fixed;
@@ -81,35 +77,20 @@
 		}
 		.logoSmall h1 { float:left; }
 			.auto {
-/*				padding-bottom: 60px;
-				padding-left: 10px;*/
 				color: blue;
 				font-size: 2rem;
 				text-transform: capitalize;
 				letter-spacing: -1px;
 				font-weight: 400;
-/*				 -ms-transform: rotate(90deg); 
-    			-webkit-transform: rotate(90deg); 
-   				 transform: rotate(90deg);*/
 			}
-			span.stretch {
-				float: left;
-				display: inline-block;
-			    display:inline-block;
-			    transform:scale(1,1.2); /* W3C */
-			    -webkit-transform:scale(1,1.2); /* Safari and Chrome */
-			    -moz-transform:scale(1,1.2); /* Firefox */
-			    -ms-transform:scale(1,1.2); /* IE 9 */
-			    -o-transform:scale(1,1.2); /* Opera */
-			    letter-spacing: 1px;
-			}
+
 
 	.menu a{ 
 		position: absolute; 
 		bottom: 8px; 
 		right: 5px;
-		/*font-size: 2.2rem; */
 	}
+
 	#my-menu {
 		text-decoration: none;
 		list-style-type: none;
@@ -133,8 +114,8 @@
 }
 
 
-.jwords{visibility:hidden; font-size: 10px;}
-#wrap { width: 110px; float:right; }
+.jwords{visibility:hidden; font-size: 10px; }
+#signWrap { width: 110px; float:right; }
 .desctitle p{
     line-height: .8;
     text-transform: uppercase;
@@ -160,9 +141,14 @@
 </style>
 
 <header class="site-header">
-	<div><h1 class="logo"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span></h1></div>
-	<nav class="sticky-nav">
-		<ul id="flip_nav">
+	<div class="row">
+		<div class="four-column">
+			<div>
+				<h1 class="logo"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span></h1>
+			</div>
+		<div class="eight-column">
+			<nav class="sticky-nav">
+				<ul id="flip_nav">
 	<li><a href="/">home</a></li>
 	<li><a href="/about">about us</a></li>
 	<li><a href="/services">services</a></li>
@@ -172,38 +158,39 @@
 </ul>
 
 <span class="hatchshow_temp">
-	 <div id="wrap">
+	 <div id="signWrap">
         <div class="desctitle">
             <p>
-                <span class="jwords black">No Deductibles</span>
-                <span class="jwords">Web Exclusive</span>
-                <span class="jwords blue">25% OFF</span>
-                <span class="jwords call">Call Now</span>
-                <span class="jwords black">(908)718-5446</span>
+                <span class="jwords black animated fadeIn">No Deductibles</span>
+                <span class="jwords animated fadeIn">Web Exclusive</span>
+                <span class="jwords blue animated fadeIn">25% OFF</span>
+                <span class="jwords call animated fadeIn">Call Now</span>
+                <span class="jwords black animated fadeIn">(908)718-5446</span>
             </p>               
         </div>
       </div>
  </span>
-	</nav>
-</header>
-<div class="bottom-header">
-		<h1 class="logoSmall"><!-- <img src="/img/roselle.png"> --><a href="tel:(908)718-5446">(908)718-5446</a></h1>
-		
-		<nav id="my-menu" class="mm-list">
-			<ul>
-				<li><a href="#my-page" id="close"><i class="fa fa-times"></i></a></li>
-				<li><a href="/">home</a></li>
-				<li><a href="/about">about us</a></li>
-				<li><a href="/services">services</a></li>
-				<li><a href="/gallery">gallery</a></li>
-				<li><a href="/faq">faq</a></li>
-				<li><a href="/contactus">contact us</a></li>
-			</ul>
-		</nav>
-		<div class="menu">
-			<a href="#my-menu" id="open"><i class="fa fa-bars"></i> Menu</a>
+			</nav>
 		</div>
-
+</header>
+<!-- Mobile menu -->
+<div class="bottom-header">
+	<h1 class="logoSmall"><a href="tel:(908)718-5446">(908)718-5446</a></h1>
+	
+	<nav id="my-menu" class="mm-list">
+		<ul>
+			<li><a href="#my-page" id="close"><i class="fa fa-times"></i></a></li>
+			<li><a href="/">home</a></li>
+			<li><a href="/about">about us</a></li>
+			<li><a href="/services">services</a></li>
+			<li><a href="/gallery">gallery</a></li>
+			<li><a href="/faq">faq</a></li>
+			<li><a href="/contactus">contact us</a></li>
+		</ul>
+	</nav>
+	<div class="menu">
+		<a href="#my-menu" id="open"><i class="fa fa-bars"></i> Menu</a>
+	</div>
 </div>
 			<!-- </div> -->
 		</div>
@@ -434,7 +421,8 @@
 </div>
 
 
-		  <script type="text/javascript" charset="utf-8">
+		<!-- Box sale promo text -->
+<script type="text/javascript" charset="utf-8">
     $(window).load(function(){
       $().hatchShow();
     });		
@@ -450,7 +438,10 @@
     };
     jQuery.fn.fontSize = function(){return parseInt($(this).css('font-size').replace('px',''));};
  
-  </script>
+ $('.call').click(function() {
+    document.location.href='/contactus/';
+});
+</script>
 
 <!-- Mobile Menu -->
 <script src="/js/jquery.mmenu.min.all.js" type="text/javascript"></script>
@@ -475,7 +466,7 @@
 <script>
 	$(function() {
 		var $container 	= $('#am-container'),
-			$imgs		= $container.find('img').fadeOut(),
+			$imgs		= $container.find('img').fadeIn(),
 			totalImgs	= $imgs.length,
 			cnt			= 0;
 		
@@ -489,8 +480,8 @@
 						fillLastRow	: false,
 							alternateHeight	: true,
 							alternateHeightRange : {
-								min	: 90,
-								max	: 200
+								min	: 100,
+								max	: 230
 							},
 							margin : 2
 					});
@@ -498,7 +489,7 @@
 					/* 
 					 * just for this demo:
 					 */
-					$('#overlay').fadeIn(500);
+					// $('#overlay').fadeIn(500);
 				}
 			}).attr('src',$img.attr('src'));
 		});	
@@ -547,6 +538,7 @@
       
 </script>
 
+<!-- Flip Menu -->
 <script type="text/javascript" src="/js/jquery.menuFlip.js"></script>
 <script>
 
@@ -559,7 +551,7 @@
 });
 </script>
 
-<!-- Slider panel	 -->
+<!-- Slider home page panel	 -->
 <script src="/js/classie.js"></script>
 <script src="/js/tiltSlider.js"></script>
 <script>
@@ -578,6 +570,8 @@
 		myWindow.scroll( function() {
 			if ( myWindow.scrollTop() == 0 ) {
 				myHeader.removeClass( "sticky-nav" );
+				$(".desctitle").removeClass(".jwords");
+
 			} else {
 				myHeader.addClass( "sticky-nav" );
 			}
@@ -614,6 +608,12 @@
 <script>
 	// Animate embed
 	// $('h2, h3, h4, h5').addClass('animated zoomIn');
+</script>
+
+<!-- Image Popup - Lightbox 2 -->
+<script src="/js/lightbox.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
 </script>
 	
 	</body>
