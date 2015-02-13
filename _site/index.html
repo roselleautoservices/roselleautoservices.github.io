@@ -112,14 +112,16 @@
 <div class="bottom-header">
 		<h1 class="logoSmall"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span><a href="tel:(908)718-5446">(908)718-5446</a></h1>
 		
-		<nav id="my-menu">
-			<li><a href="#my-page" id="close">X</a></li>
-			<li><a href="/">home</a></li>
-			<li><a href="/about">about us</a></li>
-			<li><a href="/services">services</a></li>
-			<li><a href="/gallery">gallery</a></li>
-			<li><a href="/faq">faq</a></li>
-			<li><a href="/contactus">contact us</a></li>
+		<nav id="my-menu" class="mm-list">
+			<ul>
+				<li><a href="#my-page" id="close">X</a></li>
+				<li><a href="/">home</a></li>
+				<li><a href="/about">about us</a></li>
+				<li><a href="/services">services</a></li>
+				<li><a href="/gallery">gallery</a></li>
+				<li><a href="/faq">faq</a></li>
+				<li><a href="/contactus">contact us</a></li>
+			</ul>
 		</nav>
 		<div class="menu">
 			<a href="#my-menu" id="open">Menu</a>
@@ -462,7 +464,11 @@ NJ 11418, United States</a></p>
 <script src="/js/jquery.mmenu.min.all.js" type="text/javascript"></script>
 <script type="text/javascript">
    $(document).ready(function() {
-      $("#my-menu").mmenu();
+      $("#my-menu").mmenu({
+      		"offCanvas": {
+            	"zposition": "front",
+            }
+      });
       	$("#open").click(function() {
       	$("#my-menu").trigger("open.mm");
       });
