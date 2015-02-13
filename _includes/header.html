@@ -2,10 +2,6 @@
 	/* Larger than mobile */
 @media (max-width: 600px) {
 
-	.site-header{
-		display: none;
-	}
-
 	.bottom-header {
 		z-index: 10;
 		position: fixed;
@@ -16,18 +12,25 @@
 		height: 50px;
 		background: white;
 	}
-	.logo-small img {
+	.logoSmall img {
 		width: 120px;
 		height: 46px;
 		padding-left: 10px;
 	}
-	.buttom_menu h2 {
-		position: absolute;
-		bottom: -13px;
-		left: 130px;
-		font-size: 3.0rem;
+		.logoSmall a{
+			position: fixed;
+			padding-top: 12px;
+			padding-left: 10px;
+			font-size: 2.2rem;
+			font-weight: 400;
+		}
+
+	.menu a{ 
+		position: absolute; 
+		bottom: 7px; 
+		right: 2px;
+		font-size: 2.2rem; 
 	}
-	.menu { position: absolute; bottom: 10px; right: 10px; float: right; }
 
 }
 
@@ -36,7 +39,7 @@
 /* Larger than tablet */
 @media (min-width: 601px) {
 	.buttom-header{ display: none }
-	.logo-small img { display: none }
+	.logoSmall img, .logoSmall a { display: none }
 	.menu { display: none; }
 	#my-menu { display: none; }
 }
@@ -53,10 +56,10 @@
 
 	</div>
 </header>
-<header class="bottom-header">
-	<div class="buttom_menu">
-		<h1 class="logo-small"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span></h1>
-		<h2><a href="tel:(908)718-5446">(908)718-5446</a></h2>
+<div class="bottom-header">
+	
+		<h1 class="logoSmall"><img src="/img/roselle.png"><span>Roselle Auto Services Inc.</span><a href="tel:(908)718-5446">(908)718-5446</a></h1>
+		
 		<nav id="my-menu">
 			<li><a href="#my-page" id="close">Close the menu</a></li>
 			<li><a href="/">home</a></li>
@@ -69,5 +72,5 @@
 		<div class="menu">
 			<a href="#my-menu" id="open">Menu</a>
 		</div>
-	</div>
-</header>
+
+</div>
