@@ -13,14 +13,14 @@ body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem
 .spray_icon{ color: yellow; fill: currentColor; }
 .collision_icon{ color:green; fill: currentColor; }
 
-/* Menu for the buttom */
+/* --- Contact Page Styles --- */
+
+form { width: 50%; margin: 0 auto  }
 
 
+/* --- End of Contact Page Styles --- */
 
-/* Gallery Designs */
-	.gallery {
-		/*min-height: 500px;*/
-	}
+/* --- Gallery Designs --- */
 
 	.am-wrapper{
 		float:left;
@@ -32,11 +32,8 @@ body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem
 		outline:none;
 	}
 
+/* --- End of Gallery --- */
 
-section{
-	/*padding-top: -2rem;*/
-/*	padding-top: 2rem;*/
-}
 .column{ padding-top: 2rem; padding-bottom: 2rem; }
 .footer{
 	font-size: 100%; 
@@ -187,3 +184,134 @@ ul#flip_nav li a.flipped_item {
     color: #ffffff;
 
 } 
+
+
+/* Mobile Only */
+@media (max-width: 600px) {
+	/* This is header with slide effect */
+
+	.site-header {
+		position: relative;
+		padding:0.5em;
+		margin: 0 auto;
+		left: 0; top:0;
+		overflow: hidden;
+		z-index: 10;
+	}
+		.site-header.sticky-nav {
+		position: fixed;
+		width: 100%;
+		background-color: #ccc;
+	}
+
+		.site-header.stuck {
+			position: fixed;
+			width: 100%;
+			height: 5.0rem;
+			background-color: #989BAE;
+			left: 0;
+			top: 0;
+			padding: 0.5em;
+		}
+
+		.site-header.stuck img {
+			width: 120px;
+			height: auto;
+		}
+
+	/* Header ends here */
+
+	.sticky-nav {display: none;}
+	.bottom-header {
+		z-index: 10;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 50px;
+		background: #6C6D79;
+	}
+	.bottom-header a{
+		color: #DCDCDC;
+		font-weight: 400;
+		font-size: 2.2rem;
+	}
+
+		.logoSmall a{
+			text-transform:uppercase;
+			position: fixed;
+			padding-top: 15px;
+			padding-left: 0;
+			font-size: 2.2rem;
+			/*font-weight: 400;*/
+		}
+		.logoSmall {
+			font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+			font-size: 2.2rem;
+			text-transform: uppercase;
+			line-height: 110%;
+			font-weight: 600;
+			padding-left: 10px;
+		}
+		.logoSmall h1 { float:left; }
+			.auto {
+				color: blue;
+				font-size: 2rem;
+				text-transform: capitalize;
+				letter-spacing: -1px;
+				font-weight: 400;
+			}
+
+
+	.menu a{ 
+		position: absolute; 
+		bottom: 8px; 
+		right: 5px;
+	}
+
+	#my-menu {
+		text-decoration: none;
+		list-style-type: none;
+		padding: 3.0rem;
+		font-size: 3.0rem;
+		text-transform: capitalize;
+	}
+	a#close { 
+		position: fixed;
+		top:-24px;
+		right: 10px;
+	}
+	#mm-0 {
+		margin-top: 30px;
+
+	}
+	li.fa.fa-times{
+		width: 20px;
+	}
+
+}
+
+
+.jwords{visibility:hidden; font-size: 10px; }
+#signWrap { width: 110px; float:right; }
+.desctitle p{
+    line-height: .8;
+    text-transform: uppercase;
+    top:-.05em;
+    cursor: default;
+}
+.blue { color: #0054c7; }
+.black { color:black; }
+.call:hover, .call:active { color:red; cursor: pointer; }
+
+
+/* Larger than phablet (also point when grid becomes active) */
+
+/* Larger than tablet */
+@media (min-width: 601px) {
+	.buttom-header{ display: none }
+	.logoSmall img, .logoSmall a { display: none }
+	.menu { display: none; }
+	#my-menu { display: none; }
+}
