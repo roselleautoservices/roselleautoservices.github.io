@@ -6,10 +6,10 @@ description: Free towing, we pay for your deductible. Contact us today - Call, o
 tags: auto body, auto collission, auto paint, Contact Roselle Auto Service, dent, dent removal, dent repair, Email us, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, Phone, removal, Repair, shop
 slogan: Contact us
 ---
+#Contact Us
 <section>
 <div class="row">
 <div class="u-full-width">
-#Contact Us
 In order for us to help you fix your vehicle with speedy and convenient to you services, you need to contact us immediately. Don’t forget to ask for promotional discounts that may apply. The faster you call the faster we can help.
 
 Our shop specialized in collision repairs, paintless dent removal, frame straightening, autobody paint. Our shop conveniently located in Linden New Jersey.
@@ -23,7 +23,12 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 </div>
 <div class="one-half column">
 
+<div class="one column">
+    <i class="fa fa-phone"></i>
+</div>
+<div class="eleven columns">
 #### Phone
+</div>
 {% for global in site.data.global %} 
 #####[{{ global.number }}](tel:{{ global.number }})
 {% endfor %}

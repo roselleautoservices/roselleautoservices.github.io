@@ -4,8 +4,14 @@ html, body {
 body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem; }
 
 .row {
-	padding: 2.0rem;
+	margin-top: 1.0rem;
 }
+
+.repair_icon, .spray_icon, .collision_icon { width: 7.5rem; }
+
+.repair_icon{ fill: red; }
+.spray_icon{ color: yellow; fill: currentColor; }
+.collision_icon{ color:green; fill: currentColor; }
 
 /* Menu for the buttom */
 
@@ -28,7 +34,7 @@ body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem
 
 
 section{
-	padding-top: -2rem;
+	/*padding-top: -2rem;*/
 /*	padding-top: 2rem;*/
 }
 .column{ padding-top: 2rem; padding-bottom: 2rem; }
