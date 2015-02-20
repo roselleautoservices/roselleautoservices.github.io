@@ -7,18 +7,18 @@ body { background: #C7CED6; font-family: 'Roboto', sans-serif; font-size: 1.6rem
 	margin-top: 1.0rem;
 }
 
-.repair_icon, .spray_icon, .collision_icon { width: 7.5rem; }
+/* --- Service Page Custom Design --- */
 
-.repair_icon{ fill: red; }
-.spray_icon{ color: yellow; fill: currentColor; }
-.collision_icon{ color:green; fill: currentColor; }
+	.repair_icon, .spray_icon, .collision_icon { width: 7.5rem; }
+	.repair_icon{ fill: red; }
+	.spray_icon{ color: yellow; fill: currentColor; }
+	.collision_icon{ color:green; fill: currentColor; }
+
 
 /* --- Contact Page Styles --- */
 
-form { width: 50%; margin: 0 auto  }
+	form { width: 50%; margin: 0 auto  }
 
-
-/* --- End of Contact Page Styles --- */
 
 /* --- Gallery Designs --- */
 
