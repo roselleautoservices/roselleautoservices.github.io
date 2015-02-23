@@ -221,6 +221,8 @@ ul#flip_nav li a.flipped_item {
 
 	/* Header ends here */
 
+	form { width: 90%; }
+
 	.sticky-nav {display: none;}
 	.bottom-header {
 		z-index: 10;

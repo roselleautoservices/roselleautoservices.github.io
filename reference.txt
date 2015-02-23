@@ -25,3 +25,8 @@ http://mmenu.frebsite.nl/
 
 Discount sign text
 http://charliepark.org/hatchshow/how.html
+
+
+
+Start a server
+bundle exec jekyll serve --watch
