@@ -11,7 +11,8 @@
 	height: 500px;
 	width: 100%;
 	overflow: hidden;
-	background: #ddd;
+	/*background: #ddd;*/
+	background: white;
 	color: #333;
 }
 
