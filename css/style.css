@@ -279,7 +279,8 @@ ul#flip_nav li a.flipped_item {
 		text-transform: capitalize;
 	}
 		#my-menu li a {
-			font-size: 200%;
+			font-size: 150%;
+			font-weight: 100;
 		}
 	a#close { 
 		position: fixed;
