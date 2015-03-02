@@ -44,15 +44,15 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 	<!-- Subject for this email -->
 	<input type="hidden" name="_subject" value="Roselle Auto Email Question" />
 
-	<label for="name">Enter your name</label>
+	<label for="name">Enter your name*</label>
     	<input type="text" name="name" placeholder="Your name" if="name" class="u-full-width" required>
-    <label for="phonenumber">Phone Number</label>
+    <label for="phonenumber">Phone Number*</label>
         <input type="tel" name="phone" placeholder="Your contact number" if="phonenumber" class="u-full-width" required>
     <label for="email">Your email</label>
     	<input type="email" name="phone" placeholder="test@mailbox.com" if="email" class="u-full-width">
     <label for="description">Brief Description</label>
     	<textarea name="message" class="u-full-width" placeholder="Quickly describe your question" id="textbox"></textarea>
-
+    <label for="required">* - Required fields</label>
     <input type="text" name="_gotcha" style="display:none" />
     <input class="button-primary" type="submit" value="Send">
 </form>
