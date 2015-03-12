@@ -1,7 +1,7 @@
 html, body {
 	/*font-family: 'Roboto';*/
 }
-body { /*background: #C7CED6;*/ background: white; font-family: 'Roboto', sans-serif; font-size: 1.6rem; }
+body { /*background: #C7CED6;*/ background: #FAFAFA; font-family: 'Roboto', sans-serif; font-size: 1.6rem; }
 
 .row {
 	margin-top: 1.0rem;
@@ -38,7 +38,7 @@ body { /*background: #C7CED6;*/ background: white; font-family: 'Roboto', sans-s
 .footer{
 	font-size: 100%; 
 	text-align: center; 
-	background: #534D4D url('/img/bg_yellow.png') repeat;
+	background: white; /*Was #534D4D url('/img/bg_yellow.png') repeat*/
   	/*background-size: cover;*/
 }
 .info p{ line-height: 80%; }
@@ -119,7 +119,7 @@ h1 span {
 		position: fixed;
 		width: 100%;
 		height: 7.0rem;
-		background-color: #989BAE;
+		background-color: white;  /*Was #989BAE*/
 		left: 0;
 		top: 0;
 		padding: 0.5em;
@@ -232,7 +232,7 @@ ul#flip_nav li a.flipped_item {
 		display: block;
 		width: 100%;
 		height: 50px;
-		background: #6C6D79;
+		background: #989BAE; /*Was #6C6D79*/
 	}
 	.bottom-header a{
 		color: #DCDCDC;
