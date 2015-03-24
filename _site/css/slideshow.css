@@ -110,6 +110,6 @@
 }
 
 @media (max-width: 601px) {
-	.ei-slider{ height: 200px; }
+	.ei-slider{ max-height: 200px; }
 }
 
