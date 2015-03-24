@@ -3,6 +3,10 @@ html, body {
 }
 body { /*background: #C7CED6;*/ background: #FAFAFA; font-family: 'Roboto', sans-serif; font-size: 1.6rem; }
 
+ul li {     
+	list-style-type:none;
+    text-decoration:none; 
+}
 .row {
 	margin-top: 1.0rem;
 }

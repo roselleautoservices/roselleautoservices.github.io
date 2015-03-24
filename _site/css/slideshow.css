@@ -34,29 +34,7 @@
 .ei-slider-large li img{
 	width: 100%;
 }
-.ei-title{
-	position: absolute;
-	right: 50%;
-	margin-right: 13%;
-	top: 30%;
-}
-.ei-title h2, .ei-title h3{
-	text-align: right;
-}
-.ei-title h2{
-	font-size: 40px;
-	line-height: 50px;
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	color: #b5b5b5;
-}
-.ei-title h3{
-	font-size: 70px;
-	line-height: 70px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-transform: uppercase;
-	color: #000;
-}
+
 .ei-slider-thumbs{
 	height: 13px;
 	margin: 0 auto;
@@ -128,5 +106,9 @@
 	opacity: 1;
 	bottom: 13px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+@media (max-width: 601px) {
+	.ei-slider{ height: 200px; }
 }
 
