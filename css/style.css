@@ -318,7 +318,8 @@ ul#flip_nav li a.flipped_item {
 	}
 	.restrictions {
 		font-style: italic;
-		color: #555;
+		color: #777;
+		font-size: 80%;
 	}
 
 /* --- Sidebar ends --- */
