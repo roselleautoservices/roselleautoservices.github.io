@@ -303,6 +303,23 @@ ul#flip_nav li a.flipped_item {
 
 }
 
+/* ----- Sidebar ----- */
+
+.sidebar ul li {
+	list-style-image: url('/assets/icons/check.svg');
+    text-decoration:none; 
+    padding-left: 10%;
+}
+.sidebar img{
+	width: 100px;
+}
+.sidebar h4 { 
+	padding-top: 2.2rem;
+}
+.restrictions {
+	font-style: italic;
+	color: #555;
+}
 
 .jwords{visibility:hidden; font-size: 10px; }
 #signWrap { width: 110px; float:right; }
