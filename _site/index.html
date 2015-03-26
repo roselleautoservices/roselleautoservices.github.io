@@ -9,22 +9,18 @@
 		<meta name="keywords" content="auto body, auto collission, auto paint, Autobody shop Linden, collision shop, dent, dent removal, dent repair, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, removal, Repair, repair estimates, Roselle Auto, Roselle Auto services, shop">
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic,900"/>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 		<link rel="stylesheet" type="text/css" href="/css/animate.css" />
 		<link rel="stylesheet" href="/css/normalize.css" />
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="/css/skeleton.css" />
-		<link href="/css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
 		<link href="/css/lightbox.css" rel="stylesheet" />
 
-		<!-- <link rel="stylesheet" type="text/css" href="/css/demo.css" /> -->
-		<link rel="stylesheet" href="/css/component.css" />
 		<link rel="stylesheet" href="/css/style.css" />
 			<link rel="stylesheet" href="/css/slideshow.css" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<!--[if lt IE 9]>
-		<script src="/js/html5shiv.min.js"></script>
-		<script src="/js/respond.min.js"></script>
+			<script src="/js/html5shiv.min.js"></script>
+			<script src="/js/respond.min.js"></script>
 		<![endif]-->
 
 		<!-- jQuery -->
@@ -36,7 +32,8 @@
 
 		<div class="row">
 			<!-- <div class="container"> -->
-				<header class="site-header">
+				<!-- Main Menu Full Screen -->
+<header class="site-header">
 	<div class="row">
 		<div class="four-column">
 			<div>
@@ -195,10 +192,10 @@ NJ 11418, United States</a></p>
 
 <p></section></p>
 
+					
 				</div>
 				<div class="four columns">
 					<div class="sidebar">
-
 	<h4>Call us now</h4>
 		<ul>
 			<li>We pay for your Deductibles</li>
@@ -208,17 +205,16 @@ NJ 11418, United States</a></p>
 			<li>Free Car Rentals*</li>
 		</ul>
 		<div class="restrictions">*Some restrictions and rules may apply. Call for details.</div>	
-	<h4>Open</h4>
-	<h5>Mon-Sat</h5>
-		9am - 6:30pm
-
-	<h5>Sun</h5>
-		Closed
+	<h4>Are we open?</h4>
+		<div id="time"></div>
+		<div id="time2"></div>
+	<h4>Business Hours</h4>
+	Mon-Sat 9am - 6:30pm
+	Sun - Closed
 
 	<h4>Certified</h4>
 		<img src="/assets/images/ASEBlueSealExcellence.jpg" />
 		<img src="/assets/images/icargoldclass.jpg" />
-
 </div>
 				</div>
 			</div>
@@ -622,9 +618,10 @@ NJ 11418, United States</a></p>
 
 <!-- Image Popup - Lightbox 2 -->
 <script src="/js/lightbox.min.js" type="text/javascript"></script>
-<script type="text/javascript">
 
-</script>
+<!-- Calculate business time and if store is open -->
+<script src="/js/business-hours-calc.js" type="text/javascript"></script>
+
 		
 	</body>
 </html>
