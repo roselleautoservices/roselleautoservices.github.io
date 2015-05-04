@@ -3,7 +3,7 @@ title: "Roselle Auto Services Inc"         # shown in large text
 description: "Site" # shown under the title
 tagline: "Body Shop Linden NJ"     # shown in title bar beside the title
 version: "0.1.2"              # "Currently v1.2.3"
-url:     "http://roselleautoservices.github.io"    # Used by the Atom feed
+url:     "http://roselleautoservices.com"    # Used by the Atom feed
 baseurl: ""                   # URL of site relative to domain
 parse_block_html: true
 markdown: redcarpet
