@@ -40,7 +40,7 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 <i class="fa fa-envelope-o fa-4x"></i>
 
 ####Email Us Today
-<form method="POST" action="//formspree.io/xdesigns@gmail.com">
+<form method="POST" action="//formspree.io/roselleautoservices@gmail.com">
 	<!-- Subject for this email -->
 	<input type="hidden" name="_subject" value="Roselle Auto Email Question" />
 
