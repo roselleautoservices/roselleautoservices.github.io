@@ -1,14 +1,14 @@
 ---
 layout: home
 title: Auto Body Repair Shop in Linden, New Jersey (NJ) - Collision Repairs, Mechanical and Body Paint Work | Home Page
-description: Auto Body Repair Shop in Linden, New Jersey (NJ) , Roselle Auto Services is here to serve you. Call (908)718-5446! Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
+description: Our car body repair shop and auto collision center specializes in frame straighteninig, auto glass repair, paintless dent removal, car painting,  fender and bumper repair in Linden NJ, Newark and Staten Island. 
 tags: auto body, auto collission, auto paint, Autobody shop Linden, collision shop, dent, dent removal, dent repair, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, removal, Repair, repair estimates, Roselle Auto, Roselle Auto services, shop
 slogan: Auto Body Repair Shop in Linden, New Jersey (NJ)
 ---
 
 <section>
 ### Why Us
-Roselle Auto Services is here to serve you if you are looking for auto services that you can count on. If you are located in Union County, Rahway, Elizabeth, Roselle, Union, Crawford, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Westfield, Metuchen, Carteret, Avenel, Mountainside, Iselin, Irvington, or Maplewood, New Jersey, then you will find our company to be incredibly convenient. We offer a variety of services that locals can take advantage of at affordable rates, including: paintless dent removal, paintless dent repair, dent removal, dent repair, auto painting, frame straightening, frame repair, collision repair and more. We provide everything that you need in terms of auto body work. If you are in Linden, NJ or any of its surrounding areas, make an appointment to come and see us today. Our team of auto body repair experts at Roselle Auto Services can essentially restore your vehicle.
+Roselle Auto Body Shop offers car repair services that you can count on. If you are located in Linden, Newark, Staten Island, Union County, Rahway, Elizabeth, Roselle, Union, Crawford, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Westfield, Metuchen, Carteret, Avenel, Mountainside, Iselin, Irvington, or Maplewood, New Jersey, then you will find our company to be incredibly convenient. We offer a variety of services that locals can take advantage of at affordable rates, including: paintless dent removal, paintless dent repair, dent removal, dent repair, auto painting, frame straightening, frame repair, collision repair and more. We provide everything that you need in terms of auto body work. If you are in Linden, NJ or any of its surrounding areas, make an appointment to come and see us today. Our team of auto body repair experts at Roselle Auto Services can essentially restore your vehicle.
 {% for global in site.data.global %}
 ##### [Give us a call at {{ global.number }}!](tel:{{ global.number }})
 {% endfor %}
