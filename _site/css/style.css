@@ -13,7 +13,7 @@ ul li {
 
 /* --- Service Page Custom Design --- */
 
-	.repair_icon, .spray_icon, .collision_icon { width: 7.5rem; }
+	.repair_icon, .spray_icon, .collision_icon { width: 6.0rem; padding-right: 15px;}
 	.repair_icon{ fill: red; }
 	.spray_icon{ color: yellow; fill: currentColor; }
 	.collision_icon{ color:green; fill: currentColor; }
