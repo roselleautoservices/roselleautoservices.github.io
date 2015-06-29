@@ -3,9 +3,9 @@ html, body {
 }
 body { /*background: #C7CED6;*/ background: #FAFAFA; font-family: 'Roboto', sans-serif; font-size: 1.6rem; }
 
-ul li {     
+ul li {
 	list-style-type:none;
-    text-decoration:none; 
+    text-decoration:none;
 }
 .row {
 	margin-top: 1.0rem;
@@ -40,8 +40,8 @@ ul li {
 
 .column{ padding-top: 2rem; padding-bottom: 2rem; }
 .footer{
-	font-size: 100%; 
-	text-align: center; 
+	font-size: 100%;
+	text-align: center;
 	background: white; /*Was #534D4D url('/img/bg_yellow.png') repeat*/
   	/*background-size: cover;*/
 }
@@ -55,7 +55,7 @@ ul li {
 	padding:6px;
 	margin: 5px;
 	line-height: 32px;
-	-webkit-border-radius: 7px; 
+	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	-o-border-radius: 7px;
 	border-radius: 7px;
@@ -150,7 +150,7 @@ nav ul {
 /* This is a flip menu */
 
 ul#flip_nav {
-    padding: 7px 0 0 12px;
+    padding: 7px 10px 0 12px;
     line-height: 20px;
     background-color:none;
     border:none;
@@ -162,7 +162,7 @@ ul#flip_nav li {
     float:left;
     text-align:center;
     margin:0px 3px 0px 0px;
-    
+
     /*bare bones required css (feel free to change the height though)*/
     height:30px;
     overflow:hidden;
@@ -177,7 +177,7 @@ ul#flip_nav li a  {
     /*background-color:white;*/
     margin:0px;
     padding:0px 5px 0px 5px;
-    
+
     /*bare bones required css*/
     display:block;
 }
@@ -187,7 +187,7 @@ ul#flip_nav li a.flipped_item {
     background-color:#000000;
     color: #ffffff;
 
-} 
+}
 
 
 /* Mobile Only */
@@ -271,9 +271,9 @@ ul#flip_nav li a.flipped_item {
 			}
 
 
-	.menu a{ 
-		position: absolute; 
-		bottom: 8px; 
+	.menu a{
+		position: absolute;
+		bottom: 8px;
 		right: 5px;
 	}
 
@@ -288,7 +288,7 @@ ul#flip_nav li a.flipped_item {
 			font-size: 150%;
 			font-weight: 100;
 		}
-	a#close { 
+	a#close {
 		position: fixed;
 		top:-24px;
 		right: 10px;
@@ -307,13 +307,13 @@ ul#flip_nav li a.flipped_item {
 
 	.sidebar ul li {
 		list-style-image: url('/assets/icons/check.svg');
-	    text-decoration:none; 
+	    text-decoration:none;
 	    padding-left: 10%;
 	}
 	.sidebar img{
 		width: 100px;
 	}
-	.sidebar h4 { 
+	.sidebar h4 {
 		padding-top: 3.0rem;
 	}
 	.restrictions {
