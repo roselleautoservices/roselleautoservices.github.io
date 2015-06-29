@@ -7,7 +7,6 @@ slogan: Auto Painting Linden
 ---
 
 {% for global in site.data.global %}
-{% capture m %}
 ## Call our auto painting shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. It can be quite distracting if you are trying to show off your flashy car but have paint peeling off of it – luckily for you, if you need auto painting Linden, NJ assistance, Roselle Auto Services is here to assist you! We will gladly provide you with the benefit of our expertise. We want to make your vehicle look beautiful and we hope that when your friends, coworkers and family members comment on how great your car looks, you will tell them that you chose the best place for auto painting in Linden – Roselle Auto Services! We will be sure to get your paint job finished as quickly as possible while doing an excellent job.
 
@@ -16,7 +15,4 @@ If you are living in Avenel, Union County, Metuchen, Elizabeth, Union, Rahway, C
 Come and visit us at [4 Roselle Street, Linden, NJ 07036](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e).
 
 Or, give us a call at [{{ global.number }}](tel:{{ global.number }}). We hope for the chance to meet or exceed your expectations. We want you to leave with a car that looks absolutely fresh and beautiful. If you want to take advantage of our handy services in auto painting work, give us a call. Ask about our most recent promotions. We love thrilling our customers will great, competitive rates. We hope to hear from you soon and we thank you for taking the time to visit our site and to learn more about our handy auto painting services in NJ. Special prices for residents of Staten Island, Newark as well as other nearby cities.
-
-{% endcapture %}
-{{ m | markdownify }}
 {% endfor %}

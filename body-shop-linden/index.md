@@ -8,7 +8,6 @@ exclude: 'yes'
 ---
 
 {% for global in site.data.global %}
-{% capture m %}
 ##Call our body shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. Plain and simple, you need to know of a local body shop - Linden cars need the proper care. Your car needs the right maintenance to keep it working the way it is supposed to. It has to have a long-lasting performance because you have spent your hard earned money on your vehicle. With this knowledge comes the owner’s responsibility in making sure that his or her car is still on the right track. Vehicle owners everywhere need the help of the experts. Finding a good body shop in Linden or other nearby areas, such as Union County, Avenel, Elizabeth, Roselle, Union, Rahway, Crawford, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Westfield, Metuchen, Carteret, Mountainside, Iselin, Irvington, and Maplewood, New Jersey is an exhausting task. It can get frustrating, especially when you end up not being able to find the shop that will cater to your needs in a way that is affordable to you.  Good thing there is Roselle Auto Services—your one stop body shop in Linden. Just call us when you need a body shop. Linden locals and other nearby residents truly value our services.
 
@@ -24,6 +23,4 @@ Our body shop Linden is committed to providing you with the best possible servic
 
 Call us at [{{ global.number }}](tel:{{ global.number }}) ! Or visit: [4 Roselle Street, Linden, NJ 07036](/contactus)
 
-{% endcapture %}
-{{ m | markdownify }}
 {% endfor %}

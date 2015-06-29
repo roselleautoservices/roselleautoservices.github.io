@@ -7,7 +7,6 @@ slogan: Dent Removal Linden
 ---
 
 {% for global in site.data.global %}
-{% capture m %}
 ## Call our auto dent removal shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. We have had customers come to as at Roselle Auto Services with a variety of different situations in regards to their dent removal Linden needs. What do you do when you walk out to the parking lot and discover a melon sized dent in the side of your car? We have had customers tell us this story, and their first thought is to regret parking in an area that they were unsure of. Their second thought is – “How can I possibly fix this?” What do you do when you purchase a brand new car but then find that a neighborhood kid has accidentally created a dent on your driver’s side door? We have had customers come to us with this situation, too. The solution is quite simple: if you are in search of dent removal Linden, NJ services, Roselle Auto Services can assist you. We can provide you with high quality service that is affordable. Are you located in Avenel, Union County, Metuchen, Elizabeth, Union, Rahway, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Carteret, Crawford, Mountainside, Iselin, Irvington, Roselle, Westfield or Maplewood, New Jersey? If so, then you are convenient to our shop for dent removal services in NJ. We encourage you to stop by so that we can take a look at the dent. Do this so that we can provide you with a price quote. You will be amazed at how affordable we actually are.
 
@@ -24,6 +23,4 @@ Don’t forget – it is important for you to not attempt do it yourself jobs wh
 
 Call us at [{{ global.number }}](tel:{{ global.number }}). Thanks for checking us out! We hope to delight you with our services for dent removal in Linden, NJ today.
 
-{% endcapture %}
-{{ m | markdownify }}
 {% endfor %}

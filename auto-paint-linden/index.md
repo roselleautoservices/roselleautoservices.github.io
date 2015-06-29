@@ -7,7 +7,6 @@ slogan: Auto Paint Linden
 ---
 
 {% for global in site.data.global %}
-{% capture m %}
 ## Call our auto paint shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. Thanks for stopping by to learn more about our auto paint Linden, New Jersey services. Great service at a great place is closer than you think. Roselle Auto Services has been serving locals in Union County, Metuchen, Avenel, Elizabeth, Union, Rahway, Crawford, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Westfield, Carteret, Mountainside, Iselin, Irvington, Roselle and Maplewood, New Jersey for years now. We can restore your damaged vehicle and fix its paint job, or we can repaint a showroom car. We really do it all. We would be more than happy to provide your car with a nice, new, fresh coat of paint so that it looks great once again. Whether your paint is beginning to “bubble”, peel, chip or crack, or if you would like a new color for your vehicle, we can do the job for you! Our trusted and experienced staff members will customize your job so that it meets your requirements. Give us a call today and let us know what you need, or stop by our repair shop if you are in Linden. We are conveniently located at 4 Roselle Street – put our address in your GPS and head on over! We are looking forward to seeing you if you need auto paint Linden, NJ services.
 
@@ -21,6 +20,4 @@ Here is an idea of what we will do to your vehicle, depending on the extent of t
 
 Call and ask about our current specials at [{{ global.number }}](tel:{{ global.number }}).
 
-{% endcapture %}
-{{ m | markdownify }}
 {% endfor %}

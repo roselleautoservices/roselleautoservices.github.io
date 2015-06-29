@@ -7,7 +7,6 @@ slogan: Autobody Linden
 ---
 
 {% for global in site.data.global %}
-{% capture m %}
 ## Call our autobody shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. Roselle Auto Services knows that it is important to have a place to turn to when you need services in regards to autobody Linden. You pay a lot of money for your car in monthly payments, insurance rates and you surely made a hefty down payment on it. Regardless of how you manage your finances, your vehicle isn’t cheap and therefore it shouldn’t look cheap. A damaged vehicle can be not only embarrassing to drive, but dangerous to drive too. If you are on the hunt for repairs or painting for your autobody, Linden has a great option for you: Roselle Auto Services wants to assist you and show you why we are the area’s most trusted shop when it comes to vehicle reparation and restoration. Read on for more information about how we can assist you and bring your vehicle back to its pre-damaged or pre-accident shape. Feel free to call us at your convenience, too, by dialing [{{ global.number }}](tel:{{ global.number }}).
 
@@ -16,6 +15,4 @@ If you live in or around Union County, Rahway, Elizabeth, Roselle, Union, Crawfo
 You have probably looked for body repair in Mountainside, autobody help in Avenel, and vehicle body repair in Union and other NJ areas. Irrespective of how you might have ended up here, we are glad that your search brought you here because Linden autobody services have never been more accessible. We want to prove our accessibility, reliability and affordability to you! Autobody Linden help from Roselle Auto Services allows New Jersey locals from a variety of areas to reap the benefits of our handy car services.
 
 Call us at [{{ global.number }}](tel:{{ global.number }}) today. Our friendly staff members would be happy to provide you with more information about what we can do for you or answer any questions that you might have. Thank you for learning more information on our shop and we look forward to being of assistance to you. Special prices for residents of Staten Island, Newark as well as other nearby cities.
-{% endcapture %}
-{{ m | markdownify }}
 {% endfor %}
