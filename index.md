@@ -20,8 +20,7 @@ Roselle Auto Services has been serving locals for many years now. We stand out f
 {% for global in site.data.global %}
 ##### [Contact us today at {{ global.number }}!](tel:{{ global.number }})
 {% endfor %}
-</section>
-<section>
+
 
 
 ### We are here for you!
@@ -31,7 +30,7 @@ Remember, whether you have a minor dent or experienced a bad collision and are i
 <section>
 We appreciate that you have taken the time to check us out and hope that you will use us for all of your Linden, NJ auto body repair needs. Stop by our shop or ask us for a price quote today. We work with all makes and models of vehicles for your convenience.
 
-<section class="center">
+<div class="center">
 [Auto Body Shop](/)
 ---
 [4 Roselle Street
@@ -40,4 +39,4 @@ NJ 11418, United States](/contactus)
 {% for global in site.data.global %}
 Phone: [{{ global.number }}](tel:{{ global.number }})
 {% endfor %}
-</section>
+</div>
