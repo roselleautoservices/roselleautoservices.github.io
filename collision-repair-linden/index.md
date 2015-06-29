@@ -6,8 +6,8 @@ tags: dent repair, frame straightening, frame, paintless dent removal, auto pain
 slogan: Collision Repair Linden
 ---
 
-<section>
 {% for global in site.data.global %}
+{% capture m %}
 ## Call our auto collision repair in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. If you are on the hunt for collision repair Linden assistance, then you have come to the right place. Roselle Auto Services is the place that you have been searching for. We are proud to offer assistance to customers in various parts of New Jersey, to include Union County, Metuchen, Avenel, Elizabeth, Roselle, Union, Rahway, Crawford, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Westfield, Carteret, Mountainside, Iselin, Irvington, and Maplewood, New Jersey. If you live in any of these areas, then our shop is not far from you. And don’t worry if the damage to your vehicle is so bad that you can’t even drive the car to our shop. We offer a towing service so that you don’t have to worry about driving the car. We are your best bet for collision repair. Linden residents and customers from nearby areas have trusted us with all of their vehicle repair needs in New Jersey for years now! Allow us to help you to get your vehicle back to its pre-damaged condition. It might seem impossible, but our staff members have the proper tools, progressive equipment, and unparalleled skill to get the job done.
 
@@ -18,6 +18,7 @@ Call us at [{{ global.number }}](tel:{{ global.number }}).
 
 
 
-At our Linden collision repair center, we offer full collision reparation, great warranties, plastic repair work, alignment services, dent repair, aluminum reparation and a whole lot more. Don’t go anywhere else for collision repair – Linden has the perfect shop that you have been searching for. All you have to do is reach out to our professional staff at Roselle Auto Services. If you are looking for the best services for collision repair Linden, then hire us. Your search stops here. You shouldn’t feel uncomfortable going into a shop to discuss options available for your vehicle. You should be made to feel at ease and you should be confident that the person you are talking to is certified and has the most advanced equipment out there. When you come to Roselle Auto Services, you will quickly be made to feel welcome and assured. So call us for collision repair – Linden is a wonderful place and our shop is nothing short of excellent! Special prices for residents of Staten Island, Newark as well as other nearby cities. 
+At our Linden collision repair center, we offer full collision reparation, great warranties, plastic repair work, alignment services, dent repair, aluminum reparation and a whole lot more. Don’t go anywhere else for collision repair – Linden has the perfect shop that you have been searching for. All you have to do is reach out to our professional staff at Roselle Auto Services. If you are looking for the best services for collision repair Linden, then hire us. Your search stops here. You shouldn’t feel uncomfortable going into a shop to discuss options available for your vehicle. You should be made to feel at ease and you should be confident that the person you are talking to is certified and has the most advanced equipment out there. When you come to Roselle Auto Services, you will quickly be made to feel welcome and assured. So call us for collision repair – Linden is a wonderful place and our shop is nothing short of excellent! Special prices for residents of Staten Island, Newark as well as other nearby cities.
+{% endcapture %}
+{{ m | markdownify }}
 {% endfor %}
-</section>
