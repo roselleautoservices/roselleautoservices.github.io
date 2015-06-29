@@ -5,6 +5,8 @@ description: Auto Body Shop Linden can provide the best service in town, Call Au
 tags: auto body, auto collission, auto paint, dent, dent removal, dent repair, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, removal, Repair, shop
 slogan: Auto Body Shop Linden
 ---
+
+<section>
 {% for global in site.data.global %}
 {% capture m %}
 ##Call our auto body shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
@@ -20,6 +22,7 @@ Now that you know the name of the best auto body shop in Linden, you can stop se
 Look no more if you need repairs, repainting, polishing, restoration or anything else for your New Jersey vehicle. Visit our shop at [4 Roselle Street, Linden, NJ 07036](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e) or give us a call to learn more information. Remember to choose us if you need an auto body shop. Linden, NJ residents recommend us and appreciate our handy car repair services. Don’t go anywhere else for auto repair in New Jersey. If you need auto body repair in Rahway, Elizabeth car repair services, Plainfield auto repair or just a reliable Linden auto body shop, drive on over to our shop or give us a call and we will send someone out to tow your vehicle. We will restore your vehicle and make sure that you are happy to drive it once again. Special prices for residents of Staten Island, Newark as well as other nearby cities.
 
 **Call Roselle Auto Services today!**
+</section>
 {% endcapture %}
 {{ m | markdownify }}
 {% endfor %}
