@@ -6,7 +6,7 @@ tags: dent repair, frame straightening, frame, paintless dent removal, auto pain
 slogan: Auto Collision Linden
 ---
 
-
+{% for global in site.data.global %}
 ## Call our auto collision shop in Linden NJ today at [{{ global.number }}!](tel:{{ global.number }}).
 
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. If you have experienced an accident and are searching for repair services regarding auto collision Linden, then look no further. We have been assisting customers here at Roselle Auto Services with all of their post-accident needs for years now. We have seen absolutely awful destruction in our shop. Often times, vehicles are not even able to be driven after a collision, so we have to have one of our experts two the vehicle to our shop. No need to fear if you live in Union County, Avenel, Elizabeth, Roselle, Union, Rahway, Crawford, Plainfield, Scotch Plains, Bloomfield, Clark, Hillside, Roselle Park, Kenilwort, Westfield, Metuchen, Carteret, Mountainside, Iselin, Irvington, or Maplewood, New Jersey, because our shop is not far away from you.
@@ -17,3 +17,4 @@ We believe it is easy to see why we are New Jersey’s top choice for auto colli
 
 
 Give us a call at [{{ global.number }}](tel:{{ global.number }}) or come in to visit our shop here at [4 Roselle Street, Linden, NJ 07036.](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e).
+{% endfor %}
