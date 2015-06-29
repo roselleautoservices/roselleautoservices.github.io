@@ -10,7 +10,11 @@
 
 		<div class="container">
 			<div class="row">
-				{{ content }}
+				{% for global in site.data.global %}
+
+							{{ content }}
+
+				{% endfor %}
 			</div>
 		</div>
 
