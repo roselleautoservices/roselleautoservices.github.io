@@ -7,21 +7,18 @@ slogan: Newark Body Shop
 ---
 
 <section>
-
 # Auto Collisions in Newark
-
 When you have been involved in some kind of collision, you need to rely on a professional collision center to make the repairs. At Roselle Auto Services, you can take advantage of our free towing and free estimates.
 
 We are committed to excellence and look forward to providing you with the collision repair that is needed. We work with all of the major auto insurance companies – and we pay for your deductibles. If your vehicle is not drivable, we will work hard to restore your vehicle so it looks like it did prior to being involved in an accident.
-
+<section>
 ## Auto Collision Services in Newark
-
 At Roselle Auto Services, we offer a wide range of services to ensure your car looks good when it is returned to you. We offer bumper repair, fender repair, frame straightening, auto painting, and much more. We are your collision repair in Newark that you can rely on. Our shop is conveniently located nearby n and free towing is available, so a tow truck will pick up your car or truck and bring it to us.
 
 The body shop services at Roselle have been provided for years. We have become the go-to collision center throughout New Jersey and it is because we provide convenience to our customers. From paintless dent removal to more thorough collision repairs, we have the experience, equipment, and work ethic to make the repairs. One call will let you know more about what we can do for you!
-
+</section>
+<section>
 ## Why Choose Our Body Shop
-
 Our goal at Roselle Auto Services is to be the collision repair shop near Newark that will provide you with all of the auto collision services in Newark at affordable rates. We will do all we can be make the repairs so you can get back out on the road.
 
 We will restore your vehicle using OEM and aftermarket parts based upon your preference and budget. We have experienced auto technicians who work with many makes and models. This allows you to be confident knowing that we can provide you with the collision repair that you require.
@@ -31,5 +28,4 @@ It all starts with a free quote. We pride ourselves on being honest and professi
 We will tell you exactly what you need to get your car back up and running. We are never going to sell you services that you need. We’re conveniently located to you in New Jersey and if you are in Newark, call today and let us tow your car or truck into us!
 
 We look forward to working with you so you can get the collision repairs done quickly.
-
 </section>
