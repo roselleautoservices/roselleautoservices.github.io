@@ -396,7 +396,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 <script type="text/javascript" charset="utf-8">
     $(window).load(function(){
       // $().hatchShow();
-    });		
+    });
     jQuery.fn.hatchShow = function(){
       $('.jwords').css('display','inner-block').css('white-space','pre').each(function(){
         var t = $(this);
@@ -408,7 +408,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
       }).css('visibility','visible');
     };
     jQuery.fn.fontSize = function(){return parseInt($(this).css('font-size').replace('px',''));};
- 
+
  $('.call').click(function() {
     document.location.href='/contactus/';
 });
@@ -440,7 +440,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 			$imgs		= $container.find('img').fadeIn(),
 			totalImgs	= $imgs.length,
 			cnt			= 0;
-		
+
 		$imgs.each(function(i) {
 			var $img	= $(this);
 			$('<img/>').load(function() {
@@ -456,14 +456,14 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 							},
 							margin : 2
 					});
-					
-					/* 
+
+					/*
 					 * just for this demo:
 					 */
 					// $('#overlay').fadeIn(500);
 				}
 			}).attr('src',$img.attr('src'));
-		});	
+		});
 	});
 
 
@@ -506,7 +506,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 			}
 		}
 	});
-      
+
 </script>
 
 <!-- Flip Menu -->
@@ -514,10 +514,10 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 <script>
 
 	$('#flip_nav').menuFlip({
-	li_height       : '40px', 
-	flip_speed      : 100, 
-	flipped_class   : 'flipped_item', 
-	mouseover       : function() {}, 
+	li_height       : '40px',
+	flip_speed      : 100,
+	flipped_class   : 'flipped_item',
+	mouseover       : function() {},
 	mouseout        : function() {}
 });
 </script>
@@ -544,7 +544,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 
 	$( function() {
 		// makeSticky();
-		 
+
 		$( ".site-header" ).waypoint( 'sticky' );
 	} );
 </script>
@@ -567,7 +567,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 <!-- Lazy Load -->
 <script type="text/javascript" src="/js/jquery.lazyload.min.js"></script>
 <script>
-	
+
 </script>
 <script>
 	// Animate embed
@@ -578,7 +578,7 @@ Mechanical: We have an in house mechanic that inspects all vehicles for safety b
 <script src="/js/lightbox.min.js" type="text/javascript"></script>
 
 <!-- Calculate business time and if store is open -->
-<script src="/js/business-hours-calc.js" type="text/javascript"></script>
+<!-- <script src="/js/business-hours-calc.js" type="text/javascript"></script> -->
 
 	
 	</body>
