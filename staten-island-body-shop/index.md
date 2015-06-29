@@ -7,6 +7,7 @@ slogan: Staten Island Body Shop
 ---
 
 <section>
+{% for global in site.data.global %}
 # Auto Collisions in Staten Island.
 When your car or truck has been damaged in an accident, it can seem like your world has ended. Your car may not be drivable in Staten Island and this is when you need to find a collision center that will make the needed repairs. At Roselle Auto Services, we are able to provide you with the diagnostics and estimates to tell you what is going on.
 
@@ -25,4 +26,5 @@ Countless people rely on our collision repair services in Staten Island and that
 We have experience working with insurance adjustors – and we pay for your deductibles. This allows you to get the collision repairs that are needed, faster and more affordably. We will tell you the estimate so you can decide how to proceed – and never have to worry about expensive repairs that involve hidden fees. Prior to any work being started, we will tell you about what the costs are and what you will have to pay upfront. We’re the most reputable collision center around Staten Island and look forward to providing you with the needed repairs.
 
 Whether you require frame repair in Staten Island, body painting, or something else, we are happy to provide you with this assistance. Call or come in today so we can get started on your car, truck or SUV. If your car is not drivable, let us know and we will send a tow truck out to bring your vehicle in!
+{% endfor %}
 </section>

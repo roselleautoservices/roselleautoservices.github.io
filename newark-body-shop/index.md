@@ -7,6 +7,7 @@ slogan: Newark Body Shop
 ---
 
 <section>
+{% for global in site.data.global %}
 # Auto Collisions in Newark
 When you have been involved in some kind of collision, you need to rely on a professional collision center to make the repairs. At Roselle Auto Services, you can take advantage of our free towing and free estimates.
 
@@ -28,4 +29,5 @@ It all starts with a free quote. We pride ourselves on being honest and professi
 We will tell you exactly what you need to get your car back up and running. We are never going to sell you services that you need. We’re conveniently located to you in New Jersey and if you are in Newark, call today and let us tow your car or truck into us!
 
 We look forward to working with you so you can get the collision repairs done quickly.
+{% endfor %}
 </section>
