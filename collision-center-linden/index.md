@@ -6,7 +6,7 @@ tags: dent repair, frame straightening, frame, paintless dent removal, auto pain
 slogan: Collision Center Linden
 ---
 
-
+{% for global in site.data.global %}
 ## Call our collision center in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. If you have been involved in a car accident, then you are in need of a collision center in Linden, NJ. No matter how minor or awful the damage is to your vehicle, we know that you want to get it fixed, fast. Roselle Auto Services has dealt with all kinds of accident damage from dents to fire damage. We are proud to say that our repair facility is filled with expert technicians, progressive technology and the absolute finest equipment available. These things, combined with our commitment to providing excellent customer service, are what make us the number one collision center Linden. Don’t search any further if you are in need of a reliable, trustworthy, affordable and premier collision center. Linden residents choose us for all of their accident repair needs.
 
@@ -15,3 +15,4 @@ Our location is convenient to customers all over New Jersey. Whether you are in 
 We are the most affordable collision center in Linden, NJ, providing repairs and restoration work for all makes and models of vehicles. Whether you drive a Mustang, Mazda 3, BMW, Lexus or any other car, we can fix it after an accident. Our Linden collision center is well equipped with all of the right tools and equipment, and our staff members come with plenty of training and hands-on experience. If you need auto repair services that you can afford, come to our vehicle collision center at Linden. Special prices for residents of Staten Island, Newark as well as other nearby cities.
 
 We are located at [4 Roselle Street, Linden, NJ 07036.](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e) and we can be reached at [{{ global.number }}](tel:{{ global.number }}). Thank you for visiting our site and learning more about our company. We are eager to assist you and to make improvements to your vehicle.
+{% endfor %}
