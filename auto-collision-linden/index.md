@@ -21,4 +21,4 @@ Give us a call at [{{ global.number }}](tel:{{ global.number }}) or come in to v
 
 {% endcapture %}
 {{ m | markdownify }}
-{% endfor %
+{% endfor %}
