@@ -6,7 +6,6 @@ tags: dent repair, frame straightening, frame, paintless dent removal, auto pain
 slogan: Paintless Dent Repair Linden
 ---
 
-<section>
 {% for global in site.data.global %}
 ## Call our paintless dent repair shop in Linden NJ today at [{{ global.number }}](tel:{{ global.number }}).
 Because of our thorough expertise and discounted prices, we have clients coming to us from Newark and Staten Island. It can be daunting when you are searching for paintless dent repair Linden area work. If you have a dent in your vehicle, then you might be wondering if it is worth the risk of having it removed, because further damage could potentially be caused to your vehicle. Perhaps you have a small dent that really just irritates you but you are fearful that having it removed could cause it to become even more noticeable. Roselle Auto Services understands your apprehensions and wants to put your mind at ease because we have been assisting residents in and around Linden with paintless dent repair work for years now. Allow us to provide you with the benefit of our proficiency. Allow us to do your Linden paintless dent repair job.
@@ -26,4 +25,3 @@ Roselle Auto Services notices that when customers come in for paintless dent rep
 Call us at [{{ global.number }}](tel:{{ global.number }}).
 
 {% endfor %}
-</section>
