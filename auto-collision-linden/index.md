@@ -17,6 +17,7 @@ We believe it is easy to see why we are New Jersey’s top choice for auto colli
 
 
 Give us a call at [{{ global.number }}](tel:{{ global.number }}) or come in to visit our shop here at [4 Roselle Street, Linden, NJ 07036.](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e).
+
 {% endcapture %}
 {{ m | markdownify }}
 {% endfor %}
