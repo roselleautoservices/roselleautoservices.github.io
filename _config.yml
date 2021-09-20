@@ -31,7 +31,7 @@ markdown: kramdown
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-admin
+  # - jekyll-admin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
