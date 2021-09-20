@@ -75,45 +75,6 @@
 
 </script>
 
-<!-- Google maps -->
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
-<script type="text/javascript" src="/js/gmaps.js"></script>
-
-<script type="text/javascript">
-
-    var map;
-    $(document).ready(function(){
-      map = new GMaps({
-        div: '#map',
-        zoom: 17,
-        lat: -12.043333,
-        lng: -77.028333,
-        title: 'Roselle Auto Services Inc',
-      });
-      map.drawOverlay({
-		lat: map.getCenter().lat(),
-        lng: map.getCenter().lng(),
-        content: '<div class="mapTitle">Roselle Auto Services Inc</div>',
-        verticalAlign: 'top',
-        horizontalAlign: 'center'
-      });
-    });
-
-	GMaps.geocode({
-          address: '4 ROSELLE STREET, LINDEN, NJ 07036',
-          callback: function(results, status){
-            if(status=='OK'){
-              var latlng = results[0].geometry.location;
-              map.setCenter(latlng.lat(), latlng.lng());
-              map.addMarker({
-                lat: latlng.lat(),
-                lng: latlng.lng()
-				});
-			}
-		}
-	});
-
-</script>
 
 <!-- Flip Menu -->
 <script type="text/javascript" src="/js/jquery.menuFlip.js"></script>

@@ -1,18 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 exclude: ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss", "reference.txt", "samplePage.md"]
-title: "Roselle Auto Services Inc"         # shown in large text
-description: "Site" # shown under the title
-tagline: "Body Shop Linden NJ"     # shown in title bar beside the title
-version: "0.1.2"              # "Currently v1.2.3"
-url:     "http://roselleautoservices.com"    # Used by the Atom feed
-baseurl: ""                   # URL of site relative to domain
-parse_block_html: true
-markdown: redcarpet
-permalink: /writing/:title
+title: "Roselle Auto Services Inc"  # shown in large text
+email: "roselleautoservices@gmail.com"
+version: "2.0"  
+description: >- # this means to ignore newlines until "baseurl:"
+  Our car body repair shop and auto collision center specializes in frame straighteninig, auto glass repair, paintless dent removal, car painting, fender and bumper repair in Linden NJ, Newark, Staten Island and Brooklyn.
+tagline: "Auto Body Shop Linden NJ - Roselle Auto Services"     # shown in title bar beside the title
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://roselleautoservices.com"    # Used by the Atom feed 
+markdown: kramdown
 
-mapping:
-    provider: google_js
-    api_key: AIzaSyCHoXq9HOn0XgxOK6rCNOVOg99RN5_20lY
-    zoom: 10
-    dimensions:
-        width: 600
-        height: 400
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

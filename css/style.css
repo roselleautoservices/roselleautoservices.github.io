@@ -23,6 +23,13 @@ ul li {
 
 	form { width: 50%; margin: 0 auto  }
 
+/* --- PAGE LAYOUT --- */
+
+	.container {
+		min-height: 100%;
+		padding: 50px 0 50px 0;
+	} 
+
 
 /* --- Gallery Designs --- */
 
@@ -44,7 +51,12 @@ ul li {
 	text-align: center;
 	background: white; /*Was #534D4D url('/img/bg_yellow.png') repeat*/
   	/*background-size: cover;*/
+	padding: 10px;
 }
+.maps {
+	width: 100%;
+}
+
 .info p{ line-height: 80%; }
 
 .tags a {
@@ -345,4 +357,13 @@ ul#flip_nav li a.flipped_item {
 	.logoSmall img, .logoSmall a { display: none }
 	.menu { display: none; }
 	#my-menu { display: none; }
+
+	.container { padding:20px; }
+}
+
+/* Smaller than tablet */
+@media (max-width: 601px) {
+	
+	/* This is to add padding for mobile devices */
+	.container { padding:20px; } 
 }

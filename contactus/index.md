@@ -1,12 +1,48 @@
 ---
-layout: page
 title: Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
+layout: page
 published: true
-description: Free towing, we pay for your deductible. Contact us today - Call, or email. (Web discounts may apply, call now) - Collision repairs, dent removal, body paint. Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
-tags: auto body, auto collission, auto paint, Contact Roselle Auto Service, dent, dent removal, dent repair, Email us, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, Phone, removal, Repair, shop
+description: Free towing, we pay for your deductible. Contact us today - Call, or
+  email. (Web discounts may apply, call now) - Collision repairs, dent removal, body
+  paint. Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
+tags:
+- auto
+- body,
+- auto
+- collission,
+- auto
+- paint,
+- Contact
+- Roselle
+- Auto
+- Service,
+- dent,
+- dent
+- removal,
+- dent
+- repair,
+- Email
+- us,
+- frame,
+- frame
+- straightening,
+- linden,
+- new
+- jersey,
+- nj,
+- painting,
+- paintless
+- dent
+- removal,
+- Phone,
+- removal,
+- Repair,
+- shop
 slogan: Contact us
 ---
-#Contact Us
+
+{% for global in site.data.global %}
+# Contact Us
 
 <div class="row">
 <div class="u-full-width">
@@ -19,20 +55,22 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 <div class="row center">
 <div class="one-half column">
 
-{% for global in site.data.global %}
-{% capture m %}
+
 
 <i class="fa fa-map-marker fa-4x"></i>
 
-#### Address
-##### [4 Roselle Street, Linden, NJ 07036.](https://www.google.com/maps/place/Roselle+Auto+Services+Inc+-+Linden,+NJ/@40.635433,-74.246247,17z/data=!4m7!1m4!3m3!1s0x89c3b2e1928866e5:0xe440b805db07d78e!2sRoselle+Auto+Services+Inc+-+Linden,+NJ!3b1!3m1!1s0x89c3b2e1928866e5:0xe440b805db07d78e)
+	<h4>Address</h4>
+	<h5><a href="https://www.google.com/maps/place/Auto+Body+Shop/@40.6381732,-74.2580369,15z/data=!4m9!1m2!2m1!1sauto+repair+shop+linden!3m5!1s0x89c3b2e1915caa2b:0x88a03a9cba693276!8m2!3d40.6353539!4d-74.2463088!15sChdhdXRvIHJlcGFpciBzaG9wIGxpbmRlbloZIhdhdXRvIHJlcGFpciBzaG9wIGxpbmRlbpIBEGF1dG9fcmVwYWlyX3Nob3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjVkM0YxUlZOQkVBRQ">4 Roselle Street, Linden, NJ 07036</a></h5>
+
 </div>
+
 <div class="one-half column">
     <i class="fa fa-phone fa-4x"></i>
 
-#### Phone
+	<h4>Phone</h4>
 
-#####[{{ global.number }}](tel:{{ global.number }})
+	<h5><a href="tel:+{{ global.number }}">{{ global.number }}</a></h5>
+
 
 </div>
 
@@ -42,10 +80,7 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 <i class="fa fa-envelope-o fa-4x"></i>
 
-#### Email Us Today
-{% endcapture %}
-{{ m | markdownify }}
-{% endfor %}
+	<h4> Email Us Today</h4>
 
   <form method="POST" action="//formspree.io/roselleautoservices@gmail.com">
   	<!-- Subject for this email -->
@@ -56,7 +91,7 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
       <label for="phonenumber">Phone Number*</label>
           <input type="tel" name="phone" placeholder="Your contact number" if="phonenumber" class="u-full-width" required>
       <label for="email">Your email</label>
-      	<input type="email" name="phone" placeholder="test@mailbox.com" if="email" class="u-full-width">
+      	<input type="email" name="phone" placeholder="{{global.email}}" if="email" class="u-full-width">
       <label for="description">Brief Description</label>
       	<textarea name="message" class="u-full-width" placeholder="Quickly describe your question" id="textbox"></textarea>
       <label for="required">* - Required fields</label>
@@ -66,3 +101,4 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 </div>
 </div>
+{% endfor %}

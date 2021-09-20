@@ -1,10 +1,9 @@
 <div class="section footer">
 
 	<div class="row ">
-		<div class="one-third column">
-			
-			<div id="map"></div>
-
+		<div class="one-third column">	
+			<!-- <div id="map"></div> -->
+			<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24217.0163200147!2d-74.27960708771379!3d40.649129915010676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b2e1915caa2b%3A0x88a03a9cba693276!2sAuto%20Body%20Shop!5e0!3m2!1sen!2sus!4v1632170702837!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
 		<div class="one-third column info">
 {% for global in site.data.global %}    
@@ -33,9 +32,9 @@ Email: [Contact Us Now](/contactus)
 		  {% for p in site.pages %}
 
 		  {% if p.layout != nil %}
-
-		      <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.slogan }}</a>
-
+		  	{% unless p.slogan == nil %}
+				<a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.slogan }}</a>
+			{% endunless %}
 		  {% endif %}
 
 		  {% endfor %}
@@ -43,7 +42,7 @@ Email: [Contact Us Now](/contactus)
 		</div>
 	</div>
 <footer>
-		<span>Copyrighted by Roselle Auto Services Inc &#169 {{ site.time | date: '%Y' }} | Created by Igor M (designexposition.com)</span>
+		<span>All Rights Reserved by Roselle Auto Services Inc &#169 {{ site.time | date: '%Y' }} | Created by Igor M (designexposition.com)</span>
 </footer>
 
 
