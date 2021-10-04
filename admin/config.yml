@@ -2,6 +2,7 @@
 
 backend:
   name: github
+  repo: roselleautoservices/roselleautoservices.github.io
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
