@@ -5,7 +5,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 
-name: 'pages'
+collections:
+  name: 'pages'
   label: 'Pages'
   editor:
     preview: true
