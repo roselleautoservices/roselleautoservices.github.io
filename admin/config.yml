@@ -4,9 +4,16 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
-
 collections:
 - name: 'pages'
   label: 'Pages'
   editor:
     preview: true
+  files:
+    - label: 'About Page'
+      name: 'about'
+      file: 'index.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
