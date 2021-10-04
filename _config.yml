@@ -33,9 +33,9 @@ plugins:
   - jekyll-feed
   # - jekyll-admin
 
-backend:
-  name: github
-  repo: roselleautoservices/roselleautoservices.github.io
+# backend:
+#   name: git-gateway
+#   repo: roselleautoservices/roselleautoservices.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default.
