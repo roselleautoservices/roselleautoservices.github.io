@@ -14,7 +14,7 @@ collections:
   files:
     - label: 'About Page'
       name: 'about'
-      file: 'about/index.md'
+      file: '_site/about/index.md'
       fields:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
         - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
