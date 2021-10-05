@@ -42,7 +42,7 @@ slogan: Contact us
 ---
 {% for global in site.data.global %}
 
-# Contact Us (T)
+# Contact Us
 
 <div class="row">
 <div class="u-full-width">
