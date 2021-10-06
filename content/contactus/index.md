@@ -64,7 +64,7 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
     <i class="fa fa-phone fa-4x"></i>
 
 ```
-<h4>Phone</h4>
+### Phone
 
 <h5><a href="tel:+{{ global.number }}">{{ global.number }}</a></h5>
 ```
