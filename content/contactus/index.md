@@ -65,11 +65,11 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 <div class="one-half column">
     <i class="fa fa-phone fa-4x"></i>
 
-```
+
 ### Phone
 
 <h5><a href="tel:+{{ global.number }}">{{ global.number }}</a></h5>
-```
+
 
 </div>
 
@@ -77,9 +77,8 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 <i class="fa fa-envelope-o fa-4x"></i>
 
-```
-<h4> Email Us Today</h4>
-```
+
+#### Email Us Today
 
   <form method="POST" action="https://formspree.io/f/roselleautoservices@gmail.com">
   	<!-- Subject for this email -->
