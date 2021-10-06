@@ -63,7 +63,7 @@ collections:
         - { label: "Services", value: "services" }
         - { label: "Gallery", value: "gallery" }
         - { label: "Home", value: "home" }
-        default: ["page"]
+        default: { label: "Page", value: "page" }
       - label: "Description"
         name: "description"
         widget: "text"
