@@ -34,11 +34,11 @@ collections:
       - label: Body
         name: body
         widget: markdown
-      - label: "MetaTags"
+      - label: "Tags"
         name: "tags"
         widget: "list"
-        add_to_top: true
-        fields: ["tags"]
+        allow_add: false
+        # fields: ["tags"]
         default: ["Roselle Auto Services"]
       # - label: "Layout"
       #   name: "layout"
