@@ -53,7 +53,7 @@ collections:
         # - {label: Name, name: name, widget: string, default: "Bodyshop"}
         # fields: ["tags"]
         # default: ["Roselle Auto Services"]
-      - label: "Layout"
+      - label: "Templates"
         name: "layout"
         widget: "list"
         add_to_top: true
@@ -64,6 +64,10 @@ collections:
         - {label: "Gallery", name: "gallery", widget: string}
         - {label: "Services", name: "services", widget: string}
         - {label: "Home", name: "home", widget: string}
+      - label: "Description"
+        name: "description"
+        widget: "text"
+
       #   default: ["page"]
     # adding a meta object with a path property allows editing the path of entries
     # moving an existing entry will move the entire sub tree of the entry to the new location
