@@ -5,6 +5,7 @@ tags:
   - test4
   - test4
   - test4
+  - test 4
 permalink: test4
 published: true
 layout: page
