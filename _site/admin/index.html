@@ -35,11 +35,10 @@
       var ArrayPreview = createClass({
         render: function () {
           return h(
-            // "ul",
-            // {},
+            "ul",
+            {},
             this.props.value.map(function (val, index) {
-              // return h("li", { key: index }, val);
-              return h({ key: index }, val);
+              return h("li", { key: index }, ', ' + val);
             })
           );
         },
