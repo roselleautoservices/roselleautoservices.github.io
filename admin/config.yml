@@ -61,8 +61,8 @@ collections:
         allow_add: false
         # field: {label: "template", name: "type", widget: string}
         fields:
-        - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-        - {label: Author, name: author, widget: string }
+        - {label: "Quote", name: "quote", widget: string, default: "Everything is awesome!"}
+        - {label: "Author", name: "author", widget: string }
         # default: #["Page", "Home"]
         # - {type: "Page", template: "page", widget: string}
         # - {type: "Gallery", template: "gallery", widget: string}
