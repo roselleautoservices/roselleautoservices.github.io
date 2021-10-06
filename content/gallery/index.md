@@ -1,5 +1,8 @@
 ---
 title: Roselle Auto Services - Photo Gallery
+tags:
+  - Photo gallery
+  - Roselle shop photos
 slogan: Roselle Auto Services Gallery
 permalink: /gallery/
 published: false
