@@ -20,7 +20,6 @@ media_folder: 'assets/uploads'
 collections:
   - name: pages
     label: Pages
-    label_singular: 'Page'
     folder: "content/"
     path: '/'
     create: true
