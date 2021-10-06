@@ -42,17 +42,16 @@ collections:
       - label: "Slogan"
         name: "slogan"
         widget: "string"
+        required: true
       - label: "Permalink"
         name: "permalink"
         widget: "string"
+        required: false
       - label: "Published"
         name: "published"
         widget: "boolean"
-        default: true
-        # fields:
-        # - {label: Name, name: name, widget: string, default: "Bodyshop"}
-        # fields: ["tags"]
-        # default: ["Roselle Auto Services"]
+        default: false
+        required: false
       - label: "Templates"
         name: "layout"
         widget: "select"
@@ -60,13 +59,14 @@ collections:
         required: true
         allow_add: false
         options:
-        - { label: "Page", value: "page" }
+        - { label: "Page", value: "page", default: "page" }
         - { label: "Services", value: "services" }
         - { label: "Gallery", value: "gallery" }
         - { label: "Home", value: "home" }
       - label: "Description"
         name: "description"
         widget: "text"
+        required: false
 
       #   default: ["page"]
     # adding a meta object with a path property allows editing the path of entries
