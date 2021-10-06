@@ -60,7 +60,10 @@ collections:
         required: true
         allow_add: false
         fields:
-        - {label: Name, name: name, widget: string, default: "home"}
+        - {label: "Page", name: "page", widget: string}
+        - {label: "Gallery", name: "gallery", widget: string}
+        - {label: "Services", name: "services", widget: string}
+        - {label: "Home", name: "home", widget: string}
       #   default: ["page"]
     # adding a meta object with a path property allows editing the path of entries
     # moving an existing entry will move the entire sub tree of the entry to the new location
