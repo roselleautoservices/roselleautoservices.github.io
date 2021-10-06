@@ -22,6 +22,7 @@ collections:
     label: Pages
     label_singular: 'Page'
     folder: "content/"
+    path: '/'
     create: true
     # adding a nested object will show the collection folder structure
     nested:
@@ -37,7 +38,6 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "array"
-        # default: ["Roselle Auto Services"]
       - label: "Slogan"
         name: "slogan"
         widget: "string"
