@@ -37,10 +37,10 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        fields:
-        - {label: Name, name: name, widget: string, default: "Bodyshop"}
+        # fields:
+        # - {label: Name, name: name, widget: string, default: "Bodyshop"}
         # fields: ["tags"]
-        # default: ["Roselle Auto Services"]
+        default: ["Roselle Auto Services"]
       # - label: "Layout"
       #   name: "layout"
       #   widget: "list"
