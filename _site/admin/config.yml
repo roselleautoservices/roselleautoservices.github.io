@@ -59,7 +59,7 @@ collections:
         add_to_top: true
         required: true
         allow_add: false
-        fields:
+        field:
         - {label: "Page", name: "page", widget: string}
         - {label: "Gallery", name: "gallery", widget: string}
         - {label: "Services", name: "services", widget: string}
