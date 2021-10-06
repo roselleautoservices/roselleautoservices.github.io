@@ -55,19 +55,15 @@ collections:
         # default: ["Roselle Auto Services"]
       - label: "Templates"
         name: "layout"
-        widget: "list"
+        widget: "select"
         add_to_top: true
         required: true
         allow_add: false
-        # field: {label: "template", name: "type", widget: string}
-        fields:
-        - {label: "Quote", name: "quote", widget: string, default: "Everything is awesome!"}
-        - {label: "Author", name: "author", widget: string }
-        # default: #["Page", "Home"]
-        # - {type: "Page", template: "page", widget: string}
-        # - {type: "Gallery", template: "gallery", widget: string}
-        # - {label: "Services", name: "services", widget: string}
-        # - {label: "Home", name: "home", widget: string}
+        options:
+        - { label: "Page", value: "page" }
+        - { label: "Services", value: "services" }
+        - { label: "Gallery", value: "gallery" }
+        - { label: "Home", value: "home" }
       - label: "Description"
         name: "description"
         widget: "text"
