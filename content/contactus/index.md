@@ -55,10 +55,8 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 <i class="fa fa-map-marker fa-4x"></i>
 
-```
 <h4>Address</h4>
 <h5><a href="https://www.google.com/maps/place/Auto+Body+Shop/@40.6381732,-74.2580369,15z/data=!4m9!1m2!2m1!1sauto+repair+shop+linden!3m5!1s0x89c3b2e1915caa2b:0x88a03a9cba693276!8m2!3d40.6353539!4d-74.2463088!15sChdhdXRvIHJlcGFpciBzaG9wIGxpbmRlbloZIhdhdXRvIHJlcGFpciBzaG9wIGxpbmRlbpIBEGF1dG9fcmVwYWlyX3Nob3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjVkM0YxUlZOQkVBRQ">4 Roselle Street, Linden, NJ 07036</a></h5>
-```
 
 </div>
 
