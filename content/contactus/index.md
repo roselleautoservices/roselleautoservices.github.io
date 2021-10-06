@@ -37,6 +37,8 @@ tags:
   - shop
 slogan: Contact us
 ---
+{% for global in site.data.global %}
+
 # Contact Us
 
 <div class="row">
@@ -99,3 +101,5 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 </div>
 </div>
+
+{% endfor %}
