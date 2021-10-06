@@ -7,20 +7,20 @@ description: Free towing, we pay for your deductible. Contact us today - Call,
   removal, body paint. Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
 tags:
   - auto
-  - body,
+  - body
   - auto
-  - collission,
+  - collission
   - auto
-  - paint,
+  - paint
   - Contact
   - Roselle
   - Auto
-  - Service,
-  - dent,
+  - Service
   - dent
-  - removal,
   - dent
-  - repair,
+  - removal
+  - dent
+  - repair
   - Email
   - us,
   - frame,
