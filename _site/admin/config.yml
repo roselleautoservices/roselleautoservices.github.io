@@ -38,7 +38,8 @@ collections:
         name: "tags"
         widget: "list"
         add_to_top: true
-        - label: "Layout"
+        #default: ["Roselle Auto Services"]
+      - label: "Layout"
         name: "layout"
         widget: "list"
         add_to_top: true
