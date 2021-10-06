@@ -41,6 +41,10 @@ collections:
       - label: "Slogan"
         name: "slogan"
         widget: "string"
+      - label: "Published"
+        name: "published"
+        widget: "boolean"
+        default: true
         # fields:
         # - {label: Name, name: name, widget: string, default: "Bodyshop"}
         # fields: ["tags"]
