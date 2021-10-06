@@ -4,7 +4,7 @@ backend:
   name: github
   repo: roselleautoservices/roselleautoservices.github.io
   branch: master # Branch to update (optional; defaults to master)
-  base_url: '/content'
+  base_url: '/'
   local_backend: true
 media_folder: 'assets/uploads'
 # collections:
@@ -21,7 +21,7 @@ collections:
   - name: pages
     label: Pages
     label_singular: 'Page'
-    folder: /
+    folder: /content
     create: true
     # adding a nested object will show the collection folder structure
     nested:
