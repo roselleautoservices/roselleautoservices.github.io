@@ -39,10 +39,10 @@ collections:
         name: "tags"
         widget: "array"
         required: false
-      # - label: "Slogan"
-      #   name: "slogan"
-      #   widget: "string"
-      #   required: true
+      - label: "Slogan"
+        name: "slogan"
+        widget: "string"
+        required: false
       - label: "Permalink"
         name: "permalink"
         widget: "string"
