@@ -1,7 +1,7 @@
 ---
 title: test4
 tags:
-  - test4
+  - test4,
   - test4
   - test4
   - test4
