@@ -60,6 +60,7 @@ collections:
         required: true
         allow_add: false
         field: {label: "Name", name: "page", widget: string}
+        default: ["Page", "Home"]
         # - {label: "Page", name: "page", widget: string}
         # - {label: "Gallery", name: "gallery", widget: string}
         # - {label: "Services", name: "services", widget: string}
