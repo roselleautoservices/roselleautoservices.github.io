@@ -4,7 +4,7 @@ tags:
   - Photo gallery
   - Roselle shop photos
 slogan: Roselle Auto Services Gallery
-permalink: /gallery2/
+permalink: /gallery2
 published: true
 layout: gallery
 description: You will find different images of pre to post accidental repairs
