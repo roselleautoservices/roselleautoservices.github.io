@@ -59,10 +59,10 @@ collections:
         add_to_top: true
         required: true
         allow_add: false
-        field: {label: "Name", name: "page", widget: string}
-        default: ["Page", "Home"]
-        # - {label: "Page", name: "page", widget: string}
-        # - {label: "Gallery", name: "gallery", widget: string}
+        field: {label: label, name: name, widget: string}
+        default: #["Page", "Home"]
+        - {label: "Page", name: "page", widget: string}
+        - {label: "Gallery", name: "gallery", widget: string}
         # - {label: "Services", name: "services", widget: string}
         # - {label: "Home", name: "home", widget: string}
       - label: "Description"
