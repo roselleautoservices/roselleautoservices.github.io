@@ -34,7 +34,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
-      - label: "Meta-Tags"
+      - label: "MetaTags"
         name: "tags"
         widget: "list"
         add_to_top: true
