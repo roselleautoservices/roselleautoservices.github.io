@@ -38,8 +38,12 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "array"
+        required: false
       - label: "Slogan"
         name: "slogan"
+        widget: "string"
+      - label: "Permalink"
+        name: "permalink"
         widget: "string"
       - label: "Published"
         name: "published"

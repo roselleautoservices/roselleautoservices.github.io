@@ -1,4 +1,6 @@
 # _data/navigation.yml
+# Help
+# https://dev.to/ikeyurp/jekyll-with-netlify-cms-tutorial-4ee6
 items:
   - name: Home
     link: /
