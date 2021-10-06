@@ -38,7 +38,7 @@ collections:
         name: "tags"
         widget: "list"
         add_to_top: true
-        #default: ["Roselle Auto Services"]
+        default: ["Roselle Auto Services"]
       - label: "Layout"
         name: "layout"
         widget: "list"
