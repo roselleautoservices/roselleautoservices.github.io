@@ -21,7 +21,7 @@ collections:
   - name: pages
     label: Pages
     label_singular: 'Page'
-    folder: /content
+    folder: "content/"
     create: true
     # adding a nested object will show the collection folder structure
     nested:
