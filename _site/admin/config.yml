@@ -38,9 +38,9 @@ collections:
         name: "tags"
         widget: "array"
         default: ["Roselle Auto Services"]
-      - label: "Slogan"
-        name: "slogan"
-        widget: "string"
+      # - label: "Slogan"
+      #   name: "slogan"
+      #   widget: "string"
         # fields:
         # - {label: Name, name: name, widget: string, default: "Bodyshop"}
         # fields: ["tags"]
