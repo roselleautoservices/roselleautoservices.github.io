@@ -36,7 +36,7 @@ collections:
         widget: markdown
       - label: "Tags"
         name: "tags"
-        widget: "list"
+        widget: "array"
         # fields:
         # - {label: Name, name: name, widget: string, default: "Bodyshop"}
         # fields: ["tags"]
