@@ -7,8 +7,6 @@ tags:
   - test 5
 permalink: test5
 published: true
-layout:
-  label: Page
-  value: page
+layout: page
 ---
 test 5
