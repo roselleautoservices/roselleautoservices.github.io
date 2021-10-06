@@ -59,10 +59,11 @@ collections:
         required: true
         allow_add: false
         options:
-        - { label: "Page", value: "page", default: "page" }
+        - { label: "Page", value: "page" }
         - { label: "Services", value: "services" }
         - { label: "Gallery", value: "gallery" }
         - { label: "Home", value: "home" }
+        default: ["page"]
       - label: "Description"
         name: "description"
         widget: "text"
