@@ -1,6 +1,6 @@
 ---
 title: Gallery
-published: true
+published: false
 layout: gallery
 ---
 # Gallery
