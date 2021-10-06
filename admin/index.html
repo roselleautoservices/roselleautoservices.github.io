@@ -38,7 +38,7 @@
             "ul",
             {},
             this.props.value.map(function (val, index) {
-              return h("li", { key: index }, ', ' + val);
+              return h("li", { key: index }, val + ", ");
             })
           );
         },
