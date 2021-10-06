@@ -4,7 +4,7 @@ backend:
   name: github
   repo: roselleautoservices/roselleautoservices.github.io
   branch: master # Branch to update (optional; defaults to master)
-  base_url: '/'
+  base_url: '/content'
   local_backend: true
 media_folder: 'assets/uploads'
 # collections:
