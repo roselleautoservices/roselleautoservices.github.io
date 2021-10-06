@@ -6,37 +6,34 @@ description: Free towing, we pay for your deductible. Contact us today - Call,
   or email. (Web discounts may apply, call now) - Collision repairs, dent
   removal, body paint. Auto Body Shop 4 Roselle St Linden NJ 07036 (908)718-5446
 tags:
+  - auto body
   - auto
-  - body,
+  - collision
   - auto
-  - collission,
-  - auto
-  - paint,
+  - paint
   - Contact
   - Roselle
   - Auto
-  - Service,
-  - dent,
+  - Service
   - dent
-  - removal,
   - dent
-  - repair,
-  - Email
-  - us,
-  - frame,
+  - removal
+  - dent
+  - repair
   - frame
-  - straightening,
-  - linden,
+  - frame
+  - straightening
+  - linden
   - new
-  - jersey,
-  - nj,
-  - painting,
+  - jersey
+  - nj
+  - painting
   - paintless
   - dent
   - removal,
-  - Phone,
+  - Phone
   - removal,
-  - Repair,
+  - Repair
   - shop
 slogan: Contact us
 ---
@@ -58,21 +55,17 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 <i class="fa fa-map-marker fa-4x"></i>
 
-```
 <h4>Address</h4>
 <h5><a href="https://www.google.com/maps/place/Auto+Body+Shop/@40.6381732,-74.2580369,15z/data=!4m9!1m2!2m1!1sauto+repair+shop+linden!3m5!1s0x89c3b2e1915caa2b:0x88a03a9cba693276!8m2!3d40.6353539!4d-74.2463088!15sChdhdXRvIHJlcGFpciBzaG9wIGxpbmRlbloZIhdhdXRvIHJlcGFpciBzaG9wIGxpbmRlbpIBEGF1dG9fcmVwYWlyX3Nob3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjVkM0YxUlZOQkVBRQ">4 Roselle Street, Linden, NJ 07036</a></h5>
-```
 
 </div>
 
 <div class="one-half column">
     <i class="fa fa-phone fa-4x"></i>
 
-```
-<h4>Phone</h4>
+### Phone
 
 <h5><a href="tel:+{{ global.number }}">{{ global.number }}</a></h5>
-```
 
 </div>
 
@@ -80,9 +73,7 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 <i class="fa fa-envelope-o fa-4x"></i>
 
-```
-<h4> Email Us Today</h4>
-```
+#### Email Us Today
 
   <form method="POST" action="https://formspree.io/f/roselleautoservices@gmail.com">
   	<!-- Subject for this email -->
@@ -104,4 +95,5 @@ Our shop specialized in collision repairs, paintless dent removal, frame straigh
 
 </div>
 </div>
+
 {% endfor %}
