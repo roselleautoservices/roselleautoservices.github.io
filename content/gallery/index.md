@@ -3,7 +3,7 @@ title: Roselle Auto Services - Photo Gallery 2
 tags:
   - Photo gallery
   - Roselle shop photos
-slogan: Roselle Auto Services Gallery
+slogan: Roselle Auto Services Gallery 2
 permalink: /gallery2
 published: true
 layout: gallery
