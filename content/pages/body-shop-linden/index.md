@@ -1,10 +1,16 @@
 ---
-layout: page
-title: Did you start looking for a Body Shop in Linden? Call our repair shop located in NJ.
-description: Body Shop Linden can provide the best service in town, Call Body Shop Linden, NJ today for your Body Shop Linden needs.
-tags: auto body, auto collission, auto paint, dent, dent removal, dent repair, frame, frame straightening, linden, new jersey, nj, painting, paintless dent removal, removal, Repair, shop
+published: true
+permalink: body-shop-linden
+title: Did you start looking for a Body Shop in Linden? Call our repair shop
+  located in NJ.
+description: Body Shop Linden can provide the best service in town, Call Body
+  Shop Linden, NJ today for your Body Shop Linden needs.
+tags: auto body, auto collission, auto paint, dent, dent removal, dent repair,
+  frame, frame straightening, linden, new jersey, nj, painting, paintless dent
+  removal, removal, Repair, shop
 slogan: Body Shop Linden
-exclude: 'yes'
+layout: page
+exclude: yes
 ---
 
 {% for global in site.data.global %}
