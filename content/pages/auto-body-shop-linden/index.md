@@ -1,4 +1,5 @@
 ---
+published: true
 permalink: auto-body-shop-linden
 title: Are you experiencing a problem with your Auto Body Shop in Linden? Call
   our repair shop located in NJ.
