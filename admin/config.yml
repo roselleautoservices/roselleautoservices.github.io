@@ -34,10 +34,10 @@ collections:
       - label: Body
         name: body
         widget: markdown
-      - label: "Tags"
-        name: "tags"
-        widget: "array"
-        required: false
+      # - label: "Tags"
+      #   name: "tags"
+      #   widget: "array"
+      #   required: false
       - label: "Slogan"
         name: "slogan"
         widget: "string"
