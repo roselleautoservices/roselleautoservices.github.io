@@ -27,7 +27,7 @@ collections:
     nested:
       depth: 100 # max depth to show in the collection tree
       # path: '{{meta.path}}'
-      summary: '{{meta.path}}, {{title}}, {{meta.slogan}}' 
+      summary: '{{fields.path}}, {{title}}, {{fields.slogan}}' 
     # files:
       # - label: 'Homepage'
       #   name: '/index.md'
