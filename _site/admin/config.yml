@@ -121,8 +121,10 @@ collections:
       #   default: ["page"]
   - name: 'config'
     label: 'Config'
+    delete: false
     editor:
       preview: false
+    description: 'General Site Settings'
     files:
     - label: 'Navigation'
       name: 'navigation'
