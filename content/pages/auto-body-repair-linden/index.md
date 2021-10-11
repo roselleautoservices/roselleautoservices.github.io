@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Are you experiencing a problem with your Auto Body in Linden? Call our
   repair shop located in NJ.
 description: Auto Body Repair Linden can provide the best service in town, Call
