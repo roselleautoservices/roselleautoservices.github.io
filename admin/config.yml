@@ -36,7 +36,7 @@ collections:
         widget: markdown
       - label: "Tags"
         name: "tags"
-        widget: "array"
+        widget: "text"
         required: false
       - label: "Slogan"
         name: "slogan"
