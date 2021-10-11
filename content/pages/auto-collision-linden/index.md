@@ -1,9 +1,14 @@
 ---
-layout: page
+published: true
+permalink: auto-collision-linden
 title: Were you in an Auto Collision in Linden? Call our repair shop located in NJ.
-description: Auto Collision Linden can provide the best service in town, Call Auto Collision Linden, NJ today for your Auto Collision Linden needs.
-tags: dent repair, frame straightening, frame, paintless dent removal, auto paint, painting, dent removal, auto body, repair, dent, removal, shop, linden, new jersey, nj, auto collission
+description: Auto Collision Linden can provide the best service in town, Call
+  Auto Collision Linden, NJ today for your Auto Collision Linden needs.
+tags: dent repair, frame straightening, frame, paintless dent removal, auto
+  paint, painting, dent removal, auto body, repair, dent, removal, shop, linden,
+  new jersey, nj, auto collission
 slogan: Auto Collision Linden
+layout: page
 ---
 
 {% for global in site.data.global %}
