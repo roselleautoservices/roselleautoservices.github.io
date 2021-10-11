@@ -1,28 +1,14 @@
 ---
 title: Roselle Auto Services - Frequently Asked Questions
 layout: page
-description: We do mechanical and body work on, bringing your vehicle back to pre-accidental
-  condition. Got questions, we got answers see our site for details.
-tags:
-- Answers,
-- FAQ,
-- Frequently
-- Asked
-- Questions,
-- Restoration,
-- repair,
-- mechanical
-- work,
-- auto
-- body
-- painting,
-- insurance
-- negotiations,
-- factory
-- finish,
-- color
-- matching,
-- estimates
+published: true
+permalink: faq
+description: We do mechanical and body work on, bringing your vehicle back to
+  pre-accidental condition. Got questions, we got answers see our site for
+  details.
+tags: '"Answers,", "FAQ,", "Frequently", "Asked", "Questions,", "Restoration,",
+  "repair,", "mechanical", "work,", "auto", "body", "painting,", "insurance",
+  "negotiations,", "factory", "finish,", "color", "matching,", "estimates"'
 slogan: FAQ
 ---
 
