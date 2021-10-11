@@ -1,35 +1,37 @@
 ---
+published: true
+permalink: dent-repair-linden
 title: Do you need Dent Repair in Linden? Call our repair shop located in NJ.
-layout: page
-description: Dent Repair Linden can provide the best service in town, Call Dent Repair
-  Linden, NJ today for your Dent Repair Linden needs.
+description: Dent Repair Linden can provide the best service in town, Call Dent
+  Repair Linden, NJ today for your Dent Repair Linden needs.
 tags:
-- dent
-- repair,
-- frame
-- straightening,
-- frame,
-- paintless
-- dent
-- removal,
-- auto
-- paint,
-- painting,
-- dent
-- removal,
-- auto
-- body,
-- repair,
-- dent,
-- removal,
-- shop,
-- linden,
-- new
-- jersey,
-- nj,
-- auto
-- collission
+  - dent
+  - repair,
+  - frame
+  - straightening,
+  - frame,
+  - paintless
+  - dent
+  - removal,
+  - auto
+  - paint,
+  - painting,
+  - dent
+  - removal,
+  - auto
+  - body,
+  - repair,
+  - dent,
+  - removal,
+  - shop,
+  - linden,
+  - new
+  - jersey,
+  - nj,
+  - auto
+  - collission
 slogan: Dent Repair Linden
+layout: page
 ---
 
 {% for global in site.data.global %}
