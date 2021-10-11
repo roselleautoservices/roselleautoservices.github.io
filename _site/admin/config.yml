@@ -20,6 +20,8 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'static_pages'
     label: 'Static Pages'
+    folder: "static_content/"
+    path: '/'
     editor:
       preview: false
     nested:
@@ -36,7 +38,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: pages
     label: Pages
-    folder: "static_content/"
+    folder: "content/"
     path: '/'
     create: true
     # adding a nested object will show the collection folder structure
