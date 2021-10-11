@@ -24,7 +24,8 @@ collections:
     path: '/'
     editor:
       preview: false
-    identifier_field: slug
+    # identifier_field: slug
+    value_field: "slogan"
     nested:
       depth: 100 # max depth to show in the collection tree
       # path: '{{meta.path}}'
