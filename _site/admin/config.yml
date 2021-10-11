@@ -24,6 +24,7 @@ collections:
     path: '/'
     editor:
       preview: false
+    identifier_field: slug
     nested:
       depth: 100 # max depth to show in the collection tree
       # path: '{{meta.path}}'
@@ -68,7 +69,6 @@ collections:
     # adding a nested object will show the collection folder structure
     nested:
       depth: 100 # max depth to show in the collection tree
-      path: '{{meta.path}}'
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
       - label: "Published"
