@@ -1,9 +1,16 @@
 ---
-layout: page
-title: Do you want a Paintless Dent Repair job done in Linden? Call our repair shop located in NJ.
-description: Paintless Dent Repair Linden can provide the best service in town, Call Paintless Dent Repair Linden, NJ today for your Paintless Dent Repair Linden needs.
-tags: dent repair, frame straightening, frame, paintless dent removal, auto paint, painting, dent removal, auto body, repair, dent, removal, shop, linden, new jersey, nj, auto collission
+published: true
+permalink: paintless-dent-repair-linden
+title: Do you want a Paintless Dent Repair job done in Linden? Call our repair
+  shop located in NJ.
+description: Paintless Dent Repair Linden can provide the best service in town,
+  Call Paintless Dent Repair Linden, NJ today for your Paintless Dent Repair
+  Linden needs.
+tags: dent repair, frame straightening, frame, paintless dent removal, auto
+  paint, painting, dent removal, auto body, repair, dent, removal, shop, linden,
+  new jersey, nj, auto collission
 slogan: Paintless Dent Repair Linden
+layout: page
 ---
 
 {% for global in site.data.global %}
