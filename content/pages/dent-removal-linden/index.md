@@ -1,9 +1,15 @@
 ---
-layout: page
-title: Are you looking for a Dent Removal auto shop in Linden? Call our repair shop located in NJ.
-description: Dent Removal Linden can provide the best service in town, Call Dent Removal Linden, NJ today for your Dent Removal Linden needs.
-tags: dent repair, frame straightening, frame, paintless dent removal, auto paint, painting, dent removal, auto body, repair, dent, removal, shop, linden, new jersey, nj, auto collission
+published: true
+permalink: dent-removal-linden
+title: Are you looking for a Dent Removal auto shop in Linden? Call our repair
+  shop located in NJ.
+description: Dent Removal Linden can provide the best service in town, Call Dent
+  Removal Linden, NJ today for your Dent Removal Linden needs.
+tags: dent repair, frame straightening, frame, paintless dent removal, auto
+  paint, painting, dent removal, auto body, repair, dent, removal, shop, linden,
+  new jersey, nj, auto collission
 slogan: Dent Removal Linden
+layout: page
 ---
 
 {% for global in site.data.global %}
