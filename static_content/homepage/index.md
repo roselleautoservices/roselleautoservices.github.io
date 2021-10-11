@@ -2,6 +2,8 @@
 title: Auto Body Repair Shop in Linden, New Jersey (NJ) - Collision Repairs, Mechanical
   and Body Paint Work | Home Page
 layout: home
+published: true
+permalink: /
 description: Our car body repair shop and auto collision center specializes in frame
   straighteninig, auto glass repair, paintless dent removal, car painting,  fender
   and bumper repair in Linden NJ, Newark and Staten Island.
