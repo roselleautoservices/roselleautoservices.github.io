@@ -28,12 +28,25 @@ collections:
       depth: 100 # max depth to show in the collection tree
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
+      - label: "Published"
+        name: "published"
+        widget: "boolean"
+        default: false
+        required: false
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
       - label: Title
         name: title
         widget: string
       - label: Body
         name: body
         widget: markdown
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
       - label: "Tags"
         name: "tags"
         widget: "text"
@@ -41,15 +54,6 @@ collections:
       - label: "Slogan"
         name: "slogan"
         widget: "string"
-        required: false
-      - label: "Permalink"
-        name: "permalink"
-        widget: "string"
-        required: false
-      - label: "Published"
-        name: "published"
-        widget: "boolean"
-        default: false
         required: false
       - label: "Templates"
         name: "layout"
@@ -63,10 +67,6 @@ collections:
         - { label: "Gallery", value: "gallery" }
         - { label: "Home", value: "home" }
         default: { label: "Page", value: "page" }
-      - label: "Description"
-        name: "description"
-        widget: "text"
-        required: false
       # - label: "Tags2"
       #   name: "tags"
       #   widget: "list"
