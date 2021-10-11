@@ -21,7 +21,7 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'static_pages'
     label: 'Static Pages'
-    icon: 'feather-layers'
+    icon: pin
     folder: "static_content/"
     path: '/'
     editor:
