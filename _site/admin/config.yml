@@ -33,9 +33,33 @@ collections:
       #   name: '/index.md'
       #   file: 'about.md'
     fields:
-      - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Published"
+        name: "published"
+        widget: "boolean"
+        default: false
+        required: false
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "text"
+        required: false
+      - label: "Slogan"
+        name: "slogan"
+        widget: "string"
+        required: false
   - name: pages
     label: Pages
     folder: "content/"
