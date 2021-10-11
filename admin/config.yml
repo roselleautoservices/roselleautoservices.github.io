@@ -7,7 +7,7 @@ backend:
   base_url: '/'
   local_backend: true
 # publish_mode: editorial_workflow
-media_folder: 'assets/uploads'
+media_folder: 'assets/images'
 # collections:
 # - name: 'pages'
 #   label: 'Pages'
