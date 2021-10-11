@@ -1,9 +1,15 @@
 ---
-layout: page
-title: Are you looking for a great Collision Center in Linden? Call our repair shop located in NJ.
-description: Collision Center Linden can provide the best service in town, Call Collision Center Linden, NJ today for your Collision Center Linden needs.
-tags: dent repair, frame straightening, frame, paintless dent removal, auto paint, painting, dent removal, auto body, repair, dent, removal, shop, linden, new jersey, nj, auto collission
+published: true
+permalink: collision-center-linden
+title: Are you looking for a great Collision Center in Linden? Call our repair
+  shop located in NJ.
+description: Collision Center Linden can provide the best service in town, Call
+  Collision Center Linden, NJ today for your Collision Center Linden needs.
+tags: dent repair, frame straightening, frame, paintless dent removal, auto
+  paint, painting, dent removal, auto body, repair, dent, removal, shop, linden,
+  new jersey, nj, auto collission
 slogan: Collision Center Linden
+layout: page
 ---
 
 {% for global in site.data.global %}
