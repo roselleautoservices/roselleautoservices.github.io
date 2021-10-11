@@ -1,6 +1,7 @@
 ---
 title: Roselle Auto Services - About Us
 layout: page
+published: true
 permalink: about
 description: Autobody Shop in Linden, NJ (Roselle Auto Services) Mechanical,
   Auto Body Paint, Dent Removal, Collision Repairs and Services. - About us
