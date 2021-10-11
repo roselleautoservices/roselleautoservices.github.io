@@ -1,9 +1,16 @@
 ---
-layout: page
-title: Are you looking for Frame Straightening in Linden? Call our repair shop located in NJ.
-description: Frame Straightening Linden can provide the best service in town, Call Frame Straightening Linden, NJ today for your Frame Straightening Linden needs.
-tags: dent repair, frame straightening, frame, paintless dent removal, auto paint, painting, dent removal, auto body, repair, dent, removal, shop, linden, new jersey, nj, auto collission
+published: true
+permalink: frame-straightening-linden
+title: Are you looking for Frame Straightening in Linden? Call our repair shop
+  located in NJ.
+description: Frame Straightening Linden can provide the best service in town,
+  Call Frame Straightening Linden, NJ today for your Frame Straightening Linden
+  needs.
+tags: dent repair, frame straightening, frame, paintless dent removal, auto
+  paint, painting, dent removal, auto body, repair, dent, removal, shop, linden,
+  new jersey, nj, auto collission
 slogan: Frame Straightening Linden
+layout: page
 ---
 
 {% for global in site.data.global %}
