@@ -1,5 +1,6 @@
 ---
 published: true
+permalink: staten-island-body-shop
 title: Bring Auto Collision in Staten Island to Roselle Auto Body Shop
 description: An auto collision in Staten Island can be dealt with by the best.
   Call Roselle Auto Body Shop for repairs now.
