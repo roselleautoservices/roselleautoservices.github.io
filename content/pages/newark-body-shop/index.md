@@ -1,9 +1,28 @@
 ---
-layout: page
+published: true
+permalink: newark-body-shop
 title: Roselle Auto Body Shop in Newark will work on your Auto Collision
-description: Bring your auto collision in Newark to an car repair shop you can count on. Roselle Auto Body Shop is here for you.
-tags: Auto Body Repair Staten Island, Auto Body Shop Staten Island, Autobody Staten Island, Body Shop Staten Island, Auto Collision Staten Island, Collision Center Staten Island, Collision Repair Staten Island, Frame Repair Staten Island, Frame Straightening Staten Island, Auto Paint Staten Island, Auto Painting Staten Island, Dent Repair Staten Island, Dent Removal Staten Island, Paintless Dent Repair Staten Island, Paintless Dent Removal Staten Island, Auto Body NY, Auto Body Repair NY, Auto Body Shop NY, Autobody NY, Body Shop NY, Auto Collision NY, Collision Center NY, Collision Repair NY, Frame Repair NY, Frame Straightening NY, Auto Paint NY, Auto Painting NY, Dent Repair NY, Dent Removal NY, Paintless DentRepair NY, Paintless Dent Removal NY, Auto Body Union County, Auto Body Repair Union County, Auto Body Shop Union County, Autobody Union County, Body Shop Union County, Auto Collision Union County, Collision Center Union County, Collision Repair Union County, Frame Repair Union County, Frame Straightening Union County, Auto Paint Union County, Auto Painting Union County, Dent Repair Union County, Dent Removal Union County, Paintless Dent Repair Union County, Paintless Dent Removal Union County
+description: Bring your auto collision in Newark to an car repair shop you can
+  count on. Roselle Auto Body Shop is here for you.
+tags: Auto Body Repair Staten Island, Auto Body Shop Staten Island, Autobody
+  Staten Island, Body Shop Staten Island, Auto Collision Staten Island,
+  Collision Center Staten Island, Collision Repair Staten Island, Frame Repair
+  Staten Island, Frame Straightening Staten Island, Auto Paint Staten Island,
+  Auto Painting Staten Island, Dent Repair Staten Island, Dent Removal Staten
+  Island, Paintless Dent Repair Staten Island, Paintless Dent Removal Staten
+  Island, Auto Body NY, Auto Body Repair NY, Auto Body Shop NY, Autobody NY,
+  Body Shop NY, Auto Collision NY, Collision Center NY, Collision Repair NY,
+  Frame Repair NY, Frame Straightening NY, Auto Paint NY, Auto Painting NY, Dent
+  Repair NY, Dent Removal NY, Paintless DentRepair NY, Paintless Dent Removal
+  NY, Auto Body Union County, Auto Body Repair Union County, Auto Body Shop
+  Union County, Autobody Union County, Body Shop Union County, Auto Collision
+  Union County, Collision Center Union County, Collision Repair Union County,
+  Frame Repair Union County, Frame Straightening Union County, Auto Paint Union
+  County, Auto Painting Union County, Dent Repair Union County, Dent Removal
+  Union County, Paintless Dent Repair Union County, Paintless Dent Removal Union
+  County
 slogan: Newark Body Shop
+layout: page
 ---
 
 
