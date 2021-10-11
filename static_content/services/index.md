@@ -1,42 +1,16 @@
 ---
 title: Services We Offer - Roselle Auto Services
 layout: services
-description: Roselle Auto Services (Auto Body Repair Shop) located in Linden, NJ.
-  We offer variety of services like repair, paint, dent removal and frame straightening.
-tags:
-- auto
-- body,
-- Auto
-- body
-- Paint,
-- auto
-- collission,
-- auto
-- paint,
-- Claim,
-- Collision,
-- dent,
-- dent
-- removal,
-- dent
-- repair,
-- frame,
-- frame
-- straightening,
-- Insurance,
-- linden,
-- new
-- jersey,
-- nj,
-- painting,
-- paintless
-- dent
-- removal,
-- removal,
-- Repair,
-- Scratches,
-- Services,
-- shop
+published: true
+permalink: services
+description: Roselle Auto Services (Auto Body Repair Shop) located in Linden,
+  NJ. We offer variety of services like repair, paint, dent removal and frame
+  straightening.
+tags: '"auto", "body,", "Auto", "body", "Paint,", "auto", "collission,", "auto",
+  "paint,", "Claim,", "Collision,", "dent,", "dent", "removal,", "dent",
+  "repair,", "frame,", "frame", "straightening,", "Insurance,", "linden,",
+  "new", "jersey,", "nj,", "painting,", "paintless", "dent", "removal,",
+  "removal,", "Repair,", "Scratches,", "Services,", "shop"'
 slogan: Services We Offer
 ---
 
