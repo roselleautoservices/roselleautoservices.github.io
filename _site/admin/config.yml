@@ -74,6 +74,21 @@ collections:
       #   allow_add: true
 
       #   default: ["page"]
+  - name: 'config'
+    label: 'Config'
+    editor:
+      preview: false
+    files:
+    - label: 'Navigation'
+      name: 'navigation'
+      file: '_data/navigation.yml'
+      fields:
+        - label: 'Navigation Items'
+          name: 'items'
+          widget: 'list'
+          fields:
+            - { label: Name, name: name, widget: string }
+            - { label: Link, name: link, widget: string }
     # adding a meta object with a path property allows editing the path of entries
     # moving an existing entry will move the entire sub tree of the entry to the new location
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
