@@ -2,10 +2,7 @@
 published: true
 permalink: need-argon-welding-in-nj
 title: We’re Sought By Those Who Need Argon Welding In NJ
-description: >-
-  We’ll be there for you when you need argon welding in NJ. Our
-
-  technicians have been delivering this service for years. It’s affordable and very effective.
+description: We’ll be there for you when you need argon welding in NJ. Our technicians have been delivering this service for years. It’s affordable and very effective.
 tags: argon, welding, nj
 slogan: Need Argon Welding in NJ
 layout: page
