@@ -19,7 +19,7 @@ slogan: Services We Offer
 		<img class="repair_icon" src="/assets/icons/repair.svg" />
 	</div>
 	<div class="ten columns">
-		<h4>Auto Body Repairs</h4>
+#### Auto Body Repairs
 Roselle Auto Service is a premiere auto body repair shop. Our skilled technicians are adept at handling all auto body repair jobs from total collision repairs to paint-less dent removal.
 “No matter what the size of your job is we back all of our work up with the Roselle Auto Service quality guarantee so you know that your repairs will last the life of your car.”
 Paint-less Dent Removal: We offer seamless paint-less dent removal as the perfect way to repair your car. Eliminate bumps and dents from your vehicles exterior with out the need for costly repaints and touch-ups. Ask about our paint-less dent removal services today.
