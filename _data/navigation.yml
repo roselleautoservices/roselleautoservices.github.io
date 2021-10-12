@@ -1,8 +1,8 @@
 items:
-  - name: About Us
-    link: /about/
   - name: Home
     link: /
+  - name: About Us
+    link: /about/
   - name: Services
     link: /services/
   - name: Gallery
