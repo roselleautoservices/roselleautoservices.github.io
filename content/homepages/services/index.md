@@ -11,11 +11,11 @@ tags: auto, body, Auto, body, Paint, collission, auto, paint, Claim, Collision,
   nj, painting, paintless, removal, Repair, Scratches, Services, shop
 slogan: Services We Offer
 ---
-
 ## SERVICES WE OFFER
+
 <div class="container">
 <div class="row">
-	<div class="one column">
+	<div class="two column">
 		<img class="repair_icon" src="/assets/icons/repair.svg" />
 	</div>
 	<div class="ten columns">
