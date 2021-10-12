@@ -32,10 +32,10 @@ Paint-less Dent Removal: We offer seamless paint-less dent removal as the perfec
 	<div class="ten columns">
 		<h4>Auto Body Paint</h4>
 We offer complete vehicle painting with the highest quality automotive paints and clear coat. We can do both custom and factory colors on your vehicle. All of our car repaints are performed in our state of the art spray booths by skilled paint technicians. We always remove all panels from your car to ensure a complete spot-free paint job that will last a lifetime.
-Spot Paint: We offer precision spot painting services utilizing advanced color matching and top quality clear coat systems to ensure a seamless match. We can repaint single panels and spot paint small areas with a guaranteed color match.
-Clear Coat: We utilize a 2-stage clear coat system that ensures a high quality durable finish on all automotive paint jobs. Your car will shine as bright as the day you drove it off the lot. Our clear coat comes with a lifetime guarantee.
-Laser Precision Color Matching: We offer seamless color matching using state of the art Laser Precision Color matching systems. We can match all factory and custom colors.
-Our Paint: We only use the highest quality PPG paint products on your vehicle. All of our paints meat the strictest EPA environmental standards for water based paints.
+Spot Paint: We offer precision spot painting services utilizing advanced color matching and top-quality clear coat systems to ensure a seamless match. We can repaint single panels and spot paint small areas with a guaranteed color match.
+Clear-Coat: We utilize a 2-stage clearcoat system that ensures a high-quality durable finish on all automotive paint jobs. Your car will shine as bright as the day you drove it off the lot. Our clear coat comes with a lifetime guarantee.
+Laser Precision Color Matching: We offer seamless color matching using state-of-the-art Laser Precision Color matching systems. We can match all factory and custom colors.
+Our Paint: We only use the highest quality PPG paint products on your vehicle. All of our paints meet the strictest EPA environmental standards for water-based paints.
 	</div>
 </div>
 <div class="row">
