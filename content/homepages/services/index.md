@@ -26,11 +26,11 @@ Paint-less Dent Removal: We offer seamless paint-less dent removal as the perfec
 	</div>
 </div>
 <div class="row">
-	<div class="one column">
+	<div class="two column">
 		<img class="spray_icon" src="/assets/icons/spray.svg" />
 	</div>
 	<div class="ten columns">
-		<h4>Auto Body Paint</h4>
+#### Auto Body Paint
 We offer complete vehicle painting with the highest quality automotive paints and clear coat. We can do both custom and factory colors on your vehicle. All of our car repaints are performed in our state of the art spray booths by skilled paint technicians. We always remove all panels from your car to ensure a complete spot-free paint job that will last a lifetime.
 Spot Paint: We offer precision spot painting services utilizing advanced color matching and top-quality clear coat systems to ensure a seamless match. We can repaint single panels and spot paint small areas with a guaranteed color match.
 Clear-Coat: We utilize a 2-stage clearcoat system that ensures a high-quality durable finish on all automotive paint jobs. Your car will shine as bright as the day you drove it off the lot. Our clear coat comes with a lifetime guarantee.
@@ -39,11 +39,12 @@ Our Paint: We only use the highest quality PPG paint products on your vehicle. A
 	</div>
 </div>
 <div class="row">
-<div class="one column">
+<div class="two column">
 	<img class="collision_icon" src="/assets/icons/collision.svg" />
 </div>
 <div class="ten columns"  style="padding: 20px;">
-	<h4>Collision</h4>
+
+\#### Collision
 Severe Collision Repair Services: We are expertly qualified at handling even the most severe of accident collision repairs. Our team of technicians will restore your vehicle back to pre-accident condition while ensuring that your car is as safe as it was before you got into an accident. If we can't repair your car we will help you negotiate with your insurance adjuster to ensure that you are properly taken care of.
 Alignment Services: We have the latest technology in computerized frame measuring and straighten to ensure a perfect realignment of your vehicle. All of our alignment services are performed in-house under the strictest standards in the industry returning your vehicle to manufacture specifications.
 Mechanical: We have an in-house mechanic that inspects all vehicles for safety before they are released. We also perform in-house tune-ups and general mechanical repairs.
