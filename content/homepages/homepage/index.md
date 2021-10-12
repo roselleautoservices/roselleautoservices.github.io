@@ -21,6 +21,8 @@ Roselle Auto Body Shop offers car repair services that you can count on. If you 
 
 ##### Give us a call at {{ global.number }}!(tel:{{ global.number }})
 
+<a href="tel:{{ global.number }}">{{ global.number }}</a>
+
 {% endfor %}
 
 ### What we do
