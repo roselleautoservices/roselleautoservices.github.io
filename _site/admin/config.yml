@@ -122,7 +122,8 @@ collections:
       #   default: ["page"]
   - name: 'config'
     label: 'Config'
-    delete: false
+    # delete: false
+    allow_add: true
     editor:
       preview: false
     description: 'General Site Settings'

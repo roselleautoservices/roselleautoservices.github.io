@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: auto-paint-linden
+permalink: auto-painting-linden
 title: Are you looking for Auto Painting in Linden? Call our repair shop located
   in NJ.
 description: Auto Painting Linden can provide the best service in town, Call
@@ -8,7 +8,7 @@ description: Auto Painting Linden can provide the best service in town, Call
 tags: dent repair, frame straightening, frame, paintless dent removal, auto
   paint, painting, dent removal, auto body, repair, dent, removal, shop, linden,
   new jersey, nj, auto collission
-slogan: Auto Paint Linden
+slogan: Auto Painting Linden
 layout: page
 ---
 

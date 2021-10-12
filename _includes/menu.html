@@ -1,10 +1,17 @@
 <ul id="flip_nav">
-	<li><a href="/">home</a></li>
+    {% for item in site.data.navigation.items %}
+    <li>
+        <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == {{item.link}} %} style="background-color: black; color: white" {% endif %}>
+            {{ item.name }}
+        </a>
+    </li>
+    {% endfor %}
+	<!-- <li><a href="/">home</a></li>
 	<li><a href="/about">about us</a></li>
 	<li><a href="/services">services</a></li>
 	<li><a href="/gallery">gallery</a></li>
 	<li><a href="/faq">faq</a></li>
-	<li><a href="/contactus">contact us</a></li>
+	<li><a href="/contactus">contact us</a></li> -->
 </ul>
 
 <span class="hatchshow_temp">

@@ -5,12 +5,12 @@ items:
   - name: Home
     link: /
   - name: About Us
-    link: /about/
+    link: /about
   - name: Services
-    link: /services/
+    link: /services
   - name: Gallery
-    link: /gallery/
+    link: /gallery
   - name: FAQ
-    link: /faq/
+    link: /faq
   - name: Contact Us
-    link: /contactus/
+    link: /contactus
