@@ -19,18 +19,18 @@ Roselle Auto Body Shop offers car repair services that you can count on. If you 
 
 {% for global in site.data.global %}
 
-##### Give us a call at {{ global.number }}!(tel:{{ global.number }})
-
-<a href="tel:{{ global.number }}">{{ global.number }}</a>
+##### Give us a call at <a href="tel:{{ global.number }}">{{ global.number }}</a>
 
 {% endfor %}
 
 ### What we do
 
 Roselle Auto Services has been serving locals for many years now. We stand out from other local companies because of our unparalleled commitment to excellence; affordable rates; demonstrated results and high level of customer service. You won’t find a better place for auto body work in Linden or any other nearby towns here in beautiful New Jersey. We also offer towing services for your convenience in the event that your vehicle is no longer drivable. If this happens, don’t panic – we will send one of our technicians out to pick up your car and to bring it to our Linden auto repair shop. We will get someone to you as quickly as possible. We know how stressful it is when your vehicle becomes damaged and we want to make the repair process as easy for you as possible. We will restore your vehicle back to the condition it was in before it became damaged. Of course, our experts here at Roselle Auto Services will gladly provide you with a free price quote for your requested service before we begin any work on your vehicle. This way, you will know what you are going to have to pay upfront and you won’t be surprised by additional fees that are not even necessary. We want to save you as much money as possible so we won’t try to upsell you with work that your car doesn’t really need. Roselle Auto Services truly is the area’s most reputable auto body repair shop. You won’t find a better shop for auto body work in New Jersey. We know a great deal of insurance adjusters and will work with you through that entire process, making things as easy on you as possible. Our Linden, NJ collision repair center has had many damaged vehicles come in and they have been removed by their owners after our services are completed in a pre-damaged state.
+
+
 {% for global in site.data.global %}
 
-##### \[Contact us today at {{ global.number }}!](tel:{{ global.number }})
+##### Contact us today at <a href="tel:{{ global.number }}">{{ global.number }}</a>
 
 {% endfor %}
 
@@ -54,7 +54,7 @@ We appreciate that you have taken the time to check us out and hope that you wil
 Linden,
 NJ 11418, United States](/contactus)
 
-Phone: \[{{ global.number }}](tel:{{ global.number }})
+Phone: <a href="tel:{{ global.number }}">{{ global.number }}</a>
 {% endcapture %}
 {{ m | markdownify }}
 {% endfor %}
